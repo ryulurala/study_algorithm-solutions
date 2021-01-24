@@ -1,8 +1,8 @@
 ---
 title: "문자열 다루기 기본"
 excerpt: "프로그래머스 풀이"
-category: 프로그래머스
-tags: [C++, JavaScript, 프로그래머스, Level-1]
+category: 프로그래머스[Level-1]
+tags: [C++, JavaScript, 프로그래머스]
 toc: true
 toc_sticky: true
 ---

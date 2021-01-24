@@ -1,8 +1,8 @@
 ---
 title: "서울에서 김서방 찾기"
 excerpt: "프로그래머스 풀이"
-category: 프로그래머스
-tags: [C++, JavaScript, 프로그래머스, Level-1]
+category: 프로그래머스[Level-1]
+tags: [C++, JavaScript, 프로그래머스]
 toc: true
 toc_sticky: true
 ---
