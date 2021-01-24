@@ -79,7 +79,7 @@ This is storage of algorithm solutions
 
 ## Baekjoon Solutions
 
-Coming soon     
+Coming soon  
 (Loding...)
 
 ---
