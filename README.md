@@ -77,10 +77,9 @@ This is storage of algorithm solutions
 |   56   |         [불량 사용자](/programmers/solution56.md)          | 2021-01-23 | Level-3 | `.cpp`, `.js` |
 |   57   |       [징검다리 건너기](/programmers/solution57.md)        | 2021-01-23 | Level-3 | `.cpp`, `.js` |
 
-## `.cpp`
-
 ## Baekjoon Solutions
 
-Loding...
+Coming soon     
+(Loding...)
 
 ---
