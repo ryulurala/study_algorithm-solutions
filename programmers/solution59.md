@@ -24,7 +24,7 @@ int solution(string name) {
     vector<int> noA;
     for(int i=0; i<name.length(); i++){
         if(name[i]!='A') {
-            noA.push_back(i);   // 인덱스 push
+            noA.push_back(i);  // 인덱스 push
         }
     }
 
