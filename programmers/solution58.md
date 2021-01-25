@@ -1,6 +1,6 @@
 ---
 title: "가장 큰 수"
-category: 프로그래머스
+category: 프로그래머스[Level-2]
 tags: [C++, JavaScript, 프로그래머스]
 date: "2021-01-25"
 ---

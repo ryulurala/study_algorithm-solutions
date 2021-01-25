@@ -1,6 +1,6 @@
 ---
 title: "조이스틱"
-category: 프로그래머스
+category: 프로그래머스[Level-2]
 tags: [C++, JavaScript, 프로그래머스]
 date: "2021-01-25"
 ---
