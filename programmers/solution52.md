@@ -1,10 +1,8 @@
 ---
 title: "큰 수 만들기"
-excerpt: "프로그래머스 풀이"
 category: 프로그래머스[Level-2]
 tags: [C++, JavaScript, 프로그래머스]
-toc: true
-toc_sticky: true
+date: "2021-01-22"
 ---
 
 ## 문제 링크

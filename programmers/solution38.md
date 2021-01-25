@@ -1,10 +1,8 @@
 ---
 title: "x만큼 간격이 있는 n개의 숫자"
-excerpt: "프로그래머스 풀이"
 category: 프로그래머스[Level-1]
 tags: [C++, JavaScript, 프로그래머스]
-toc: true
-toc_sticky: true
+date: "2021-01-21"
 ---
 
 ## 문제 링크

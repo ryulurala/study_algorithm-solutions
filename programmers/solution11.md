@@ -1,10 +1,8 @@
 ---
 title: "같은 숫자는 싫어"
-excerpt: "프로그래머스 풀이"
 category: 프로그래머스[Level-1]
 tags: [C++, JavaScript, 프로그래머스]
-toc: true
-toc_sticky: true
+date: "2021-01-19"
 ---
 
 ## 문제 링크
