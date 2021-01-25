@@ -389,7 +389,7 @@ int dfsByRecursive(Node root){  // 연결된 개수 리턴하는 재귀 DFS
 
   for(int i=0; i<root.size(); i++){
     // 인접한 노드를 방문
-    count += dfs(root[i]);
+    count += dfsByRecursive(root[i]);
   }
   return count;
 }
