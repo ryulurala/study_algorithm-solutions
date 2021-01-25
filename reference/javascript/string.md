@@ -8,6 +8,16 @@ toc: true
 
 ## String of JavaScript
 
+### 문자의 ASCII code 값
+
+- `charCodeAt()`
+  > 첫 문자 하나의 ASCII Code 값을 리턴한다.
+
+```js
+"ABC".charCodeAt(); // 65, 'A'===65
+"abc".charCodeAt(); // 97, 'a'===97
+```
+
 ### 문자열 뒤집기(by Array Method)
 
 - `str.split("").reverse().join("")`
