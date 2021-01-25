@@ -1,6 +1,6 @@
 ---
 title: ""
-category: 프로그래머스
+category: 프로그래머스[Level-]
 tags: [C++, JavaScript, 프로그래머스]
 date: ""
 ---
