@@ -69,5 +69,58 @@ vector<string> solution(vector<string> orders, vector<int> course) {
 ### JavaScript
 
 ```js
+function solution(orders, course) {
+  var answer = [];
 
+  let course_count = new Map(); // 코스당 주문 횟수
+  let length_maxCount = new Map(); // 코스 길이당 주문횟수 최대
+
+  const getCombi = (arr, num) => {
+    // 조합
+    const result = [];
+    if (num === 1) return arr.map((v) => [v]);
+    else {
+      arr.forEach((v, i, a) => {
+        const fixed = v;
+        const restArr = a.slice(i + 1);
+        const combiArr = getCombi(restArr, num - 1);
+        const combiFix = combiArr.map((v) => [fixed, ...v]);
+        result.push(...combiFix);
+      });
+      return result;
+    }
+  };
+
+  orders.some((order) => {
+    order = order.split("").sort(); // 사전순 정렬
+    for (let i = 0; i < course.length; i++) {
+      const arr = getCombi(order, course[i]);
+      arr.forEach((v) => {
+        v = v.join("");
+        if (course_count.has(v)) {
+          // 이미 코스가 존재
+          const count = course_count.get(v);
+          course_count.set(v, count + 1); // 주문횟수 갱신
+          let maxCount = length_maxCount.get(v.length);
+          maxCount = Math.max(maxCount, count + 1);
+          length_maxCount.set(v.length, maxCount); // 최대 주문횟수 갱신
+        } else {
+          // 새로운 코스
+          course_count.set(v, 1);
+          if (!length_maxCount.has(v.length)) length_maxCount.set(v.length, 1);
+        }
+      });
+    }
+  });
+
+  for (const [k, v] of course_count) {
+    if (v >= 2 && v === length_maxCount.get(k.length)) {
+      answer.push(k);
+    }
+  }
+
+  answer.sort(); // 오름차순 정렬
+
+  return answer;
+}
 ```
