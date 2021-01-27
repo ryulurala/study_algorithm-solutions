@@ -8,6 +8,92 @@ toc: true
 
 ## Skills by JavaScript
 
+### 순열(Permutation), 조합(Combination)
+
+- 기본 규칙
+
+  > 배열에서 N개를 선택하는 경우,
+  >
+  > 1. 하나의 수를 선택.
+  > 2. 남은 배열에서 나머지 N-1개를 선택.
+
+- 순열(Permutation)
+  > 만약, `selectNum`이 1개일 경우, 배열의 각각 요소가 순열이므로 하나의 작은 배열로 변환  
+  > 입력 받은 `arr`를 forEach로 순회하며 먼저 뽑을 1개(`fixed`)를 선택.  
+  > `fixed`를 제외한 나머지 배열(`restArr`)를 생성(filter로 해당 인덱스 제외)  
+  > `restArr`로 `selectNum-1`의 재귀로 돌린 결과가 `permutationArr`에 저장  
+  > `result`에 전개 연산자 `...`로 push(깊은 복사)
+
+```js
+const permutation = (arr, selectNum) => {
+  const result = [];
+  if (selectNum === 1) return arr.map((v) => [v]);
+  else {
+    arr.forEach((value, idx) => {
+      const fixed = value; // 1개 선택
+      const restArr = arr.filter((v, i) => i !== idx); // 나머지 배열
+      const permutationArr = permutation(restArr, selectNum - 1); // 나머지 배열의 결과
+      const mergeArr = permutationArr.map((v) => [fixed, ...v]); // 합치기
+      result.push(...mergeArr); // 깊은 복사로 push
+    });
+    return result;
+  }
+};
+
+permutation([1, 2, 3], 1); // [ [1], [2], [3] ]
+permutation([1, 2, 3], 2); // [ [1, 2], [1, 3], [2, 1], [2, 3], [3, 1], [3, 2] ]
+permuation([1, 2, 3], 3); // [ [1, 2, 3], [1, 3, 2], [2, 1, 3], [2, 3, 1], [3, 1, 2], [3, 2, 1] ]
+```
+
+- 조합(Combination)
+  > 순열과 과정은 동일하다.  
+  > 한 번 선택했던 수는 다시 선택할 필요가 없으므로 `slice(index+1)`을 해줌.
+
+```js
+const combination = (arr, selectNum) => {
+  const result = [];
+  if (selectNum === 1) return arr.map((v) => [v]);
+  else {
+    arr.forEach((value, idx) => {
+      const fixed = value;
+      const restArr = arr.slice(idx + 1); // 다시 선택할 필요 X
+      const permutationArr = combination(restArr, selectNum - 1);
+      const mergeArr = permutationArr.map((v) => [fixed, ...v]);
+      result.push(...mergeArr);
+    });
+    return result;
+  }
+};
+
+combination([1, 2, 3], 1); // [ [1], [2], [3] ]
+combination([1, 2, 3], 2); // [ [1, 2], [1, 3], [2, 3] ]
+combination([1, 2, 3], 3); // [[1, 2, 3]]
+```
+
+- 중복 순열
+  > 순열과 과정은 동일하다.  
+  > 선택을 하더라도 중복해서 선택할 수 있으므로 세 번째 인자(`array`)를 나머지 배열로 사용
+
+```js
+const overPermutation = (arr, selectNum) => {
+  const result = [];
+  if (selectNum === 1) return arr.map((v) => [v]);
+  else {
+    arr.forEach((value, idx, array) => {
+      const fixed = value;
+      const restArr = array; // 기존 배열로 계속 순열
+      const permutationArr = overPermutation(restArr, selectNum - 1);
+      const mergeArr = permutationArr.map((v) => [fixed, ...v]);
+      result.push(...mergeArr);
+    });
+    return result;
+  }
+};
+
+overPermutation([1, 2], 1); // [ [1], [2] ]
+overPermutation([1, 2], 2); // [ [1, 1], [1, 2], [2, 1], [2, 2] ]
+```
+
 ### 정렬(sort) only. Array
 
 - about `JavaScript-Sort`
