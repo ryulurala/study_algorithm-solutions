@@ -66,7 +66,7 @@ queue.unShift(4); // [4, 2, 3, 4, 5, 6]
   > `(key, value)` pair로 이루어진 collection  
   > key들은 중복 불가: 하나의 key에는 하나의 value 즉, 갱신됨  
   > `get()`, `set()` 으로 조회 및 삽입  
-  > `forEach((value, index) => {})`로 접근 가능  
+  > `for(const [key, value] of map){}` 로 접근 가능  
   > `some(function(){})`은 불가
 
 - `new Map()`
@@ -99,6 +99,11 @@ map.delete(1); // true
 map.delete(4); // false
 map.has(1); // false
 map.has(2); // true
+
+for (const [key, value] of map) {
+  console.log(key, ", ", value); // 2, 4
+}
+
 map.clear();
 ```
 
@@ -109,7 +114,7 @@ map.clear();
   > `value`로 이루어진 집합(collection)  
   > value들은 중복 불가: 중복된 값을 추가하면 아무 일도 발생하지 않음  
   > `add()` 로 삽입  
-  > `forEach((value, index) => {})`로 접근 가능  
+  > `for(const value of set){}`로 접근 가능  
   > `some(function(){})`은 불가
 
 - `new Set()`
