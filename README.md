@@ -79,6 +79,7 @@ This is storage of algorithm solutions
 |   58   |          [가장 큰 수](/programmers/solution58.md)          | 2021-01-25 | Level-2 | `.cpp`, `.js` |
 |   59   |           [조이스틱](/programmers/solution59.md)           | 2021-01-25 | Level-2 | `.cpp`, `.js` |
 |   60   |          [소수 찾기](/programmers/solution60.md)           | 2021-01-25 | Level-2 | `.cpp`, `.js` |
+|   61   |         [메뉴 리뉴얼](/programmers/solution61.md)          | 2021-01-27 | Level-2 | `.cpp`, `.js` |
 
 ## Baekjoon Solutions
 
