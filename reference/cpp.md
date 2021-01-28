@@ -1060,6 +1060,11 @@ else{
 for(auto iter=m.begin(); iter!=m.end(); iter++){
   cout<< iter->first << ", " << iter->second << endl; // 순회
 }
+
+for(auto p: m){
+  cout<<p.first<<", "<<p.second<<endl;  // 순회
+}
+
 ```
 
 - 응용(`multimap`)
@@ -1174,6 +1179,10 @@ else{
 // set<string>::iterator iter;
 for(auto iter=s.begin(); iter!=s.end(); iter++){
   cout<< iter->first << endl; // 순회
+}
+
+for(auto e: s){
+  cout<<e<<endl;  // 순회
 }
 ```
 

@@ -2,7 +2,7 @@
 title: "JavaScript Reference"
 excerpt: "JavaScript Reference"
 category: Language-Reference
-tags: [JavaScript, compare, sort, mat, print, stack, queue, set, map, array]
+tags: [JavaScript, compare, sort, map, print, stack, queue, set, map, array]
 toc: true
 ---
 

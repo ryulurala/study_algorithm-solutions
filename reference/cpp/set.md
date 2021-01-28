@@ -94,6 +94,10 @@ else{
 for(auto iter=s.begin(); iter!=s.end(); iter++){
   cout<< iter->first << endl; // 순회
 }
+
+for(auto e: s){
+  cout<<e<<endl;  // 순회
+}
 ```
 
 - 응용(`multiset`)
@@ -118,3 +122,5 @@ for(iter = ms.lower_bound(N); iter != ms.upper_bound(N); iter++){
   cout << "[" << iter->first << "] " ;
 }
 ```
+
+---

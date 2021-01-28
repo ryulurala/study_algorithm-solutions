@@ -100,6 +100,11 @@ else{
 for(auto iter=m.begin(); iter!=m.end(); iter++){
   cout<< iter->first << ", " << iter->second << endl; // 순회
 }
+
+for(auto p: m){
+  cout<<p.first<<", "<<p.second<<endl;  // 순회
+}
+
 ```
 
 - 응용(`multimap`)
@@ -124,3 +129,5 @@ for(iter = mm.lower_bound(N); iter != mm.upper_bound(N); iter++){
   cout << "[" << iter->first << ", " << iter->second << "] " ;
 }
 ```
+
+---
