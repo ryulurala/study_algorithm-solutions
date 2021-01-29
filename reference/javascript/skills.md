@@ -8,6 +8,58 @@ toc: true
 
 ## Skills by JavaScript
 
+### 이진탐색(Binary search)
+
+- 기본 규칙
+
+  > 정렬돼있어야 함.  
+  > 기본적으로 오름차순 정렬
+
+- `Lower-bound`
+  > **`key`값이 있다면**, 가장 작은 `key`값(or 인덱스)를 찾음.  
+  > **`key`값이 없다면**, `key`값보다 크지만 가장 작은 값(or 인덱스)을 찾음.
+- `Upper-bound`
+  > **`key`값이 있다면** 가장 큰 `key`값(or 인덱스)를 찾음.  
+  > **`key`값이 없다면**, `key`값보다 작지만 가장 큰 값(or 인덱스)을 찾음.
+
+```js
+// Lower_bound
+// 가장 작은 target값의 인덱스를 찾음.
+// 못 찾을 경우, target값보다는 크지만 가장 작은 인덱스를 찾음.
+const lower_bound = (array, target) => {
+  let left = 0;
+  let right = array.length;
+  while (left < right) {
+    const mid = parseInt((left + right) / 2);
+
+    if (array[mid] < target) {
+      left = mid + 1;
+    } else {
+      right = mid;
+    }
+  }
+  return left - 1; // 인덱스 리턴
+};
+
+// Upper_bound
+// 가장 큰 target값의 인덱스를 찾음.
+// 못 찾을 경우, target값보다는 작지만 가장 큰 인덱스를 찾음.
+const upper_bound = (array, target) => {
+  let left = 0;
+  let right = array.length;
+  while (left < right) {
+    const mid = parseInt((left + right) / 2);
+
+    if (array[mid] <= target) {
+      left = mid + 1;
+    } else {
+      right = mid;
+    }
+  }
+  return right - 1; // 인덱스 리턴
+};
+```
+
 ### 순열(Permutation), 조합(Combination)
 
 - 기본 규칙
@@ -57,7 +109,7 @@ const combination = (arr, selectNum) => {
     arr.forEach((value, idx) => {
       const fixed = value;
       const restArr = arr.slice(idx + 1); // 다시 선택할 필요 X
-      const permutationArr = combination(restArr, selectNum - 1);
+      const combinationArr = combination(restArr, selectNum - 1);
       const mergeArr = permutationArr.map((v) => [fixed, ...v]);
       result.push(...mergeArr);
     });
@@ -82,7 +134,7 @@ const overPermutation = (arr, selectNum) => {
     arr.forEach((value, idx, array) => {
       const fixed = value;
       const restArr = array; // 기존 배열로 계속 순열
-      const permutationArr = overPermutation(restArr, selectNum - 1);
+      const overPermutationArr = overPermutation(restArr, selectNum - 1);
       const mergeArr = permutationArr.map((v) => [fixed, ...v]);
       result.push(...mergeArr);
     });
