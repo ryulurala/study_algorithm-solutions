@@ -26,11 +26,54 @@ tags: [
     set_union,
     set_intersection,
     set_difference,
+    <sstream>,
   ]
 toc: true
 ---
 
 ## Skills by C++
+
+### 문자열 추출(sstream)
+
+- `#include <sstream>`
+
+- `stringstream ss(string s)`
+  > s를 스트림 버퍼에 넣고 ss를 선언.
+- `ss.str(string s)`
+  > s를 스트림 버퍼에 넣음.
+- `ss.clear()`
+  > ss의 스트림 버퍼를 clear.
+
+```cpp
+#include <sstream>    // 헤더 필요
+#include <string>
+
+using namespace std;
+
+string str1="hi bye 2021 36.5";   // 공백 split은 알아서 sstream이 해줌.
+string str2="hi, bye, 2021, 36.5";  // ',' split
+
+// 구분자 split -> 공백 split 으로 바꾼다.
+int index=str2.find(',');
+while(index!=string::npos){
+  str2.replace(index, 1, "");
+  index=str2.find(',');
+}
+
+// stringstream ss(str2); 아래 두 줄과 같음
+stringstream ss;
+ss.str(str2);
+
+string hi, bye;
+int year;
+float temperature;
+
+ss >> hi;   // "hi", string형
+ss >> bye;    // "bye", string형
+ss >> year;   // 2021, int형
+ss >> temperature;    // 36.5, float형
+
+```
 
 ### 이진탐색(lower_bound, upper_bound)
 
