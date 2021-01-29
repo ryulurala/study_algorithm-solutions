@@ -32,6 +32,101 @@ toc: true
 
 ## Skills by C++
 
+### 이진탐색(lower_bound, upper_bound)
+
+- 기본 규칙
+
+  > 정렬돼있어야 함.  
+  > 기본적으로 오름차순 정렬
+
+- `lower-bound(begin, end, target)`
+  > `<algorithm>` 헤더 필요  
+  > `begin` 반복자(iterator)부터 `end` 반복자까지  
+  > **`target`값이 있다면**, 가장 작은 `target`값과 일치하는 인덱스를 가리키는 반복자 리턴.  
+  > **`target`값이 없다면**, `target`값보다 크지만 가장 작은 값의 인덱스를 가리키는 반복자 리턴.
+- `upper-bound(begin, end, target)`
+  > `<algorithm>` 헤더 필요  
+  > `begin` 반복자(iterator)부터 `end` 반복자까지  
+  > **`target`값이 있다면** 가장 큰 `target`값과 일치하는 인덱스를 가리키는 반복자 리턴.  
+  > **`target`값이 없다면**, `target`값보다 작지만 가장 큰 값의 인덱스를 가리키는 반복자 리턴.
+
+```cpp
+#include <algorithm>  // 헤더 필요
+#include <vector>
+
+using namespace std;
+
+vector<int> v;
+v.push_back(1);
+v.push_back(2);
+v.push_back(2);
+v.push_back(2);
+v.push_back(4);
+v.push_back(5);
+v.push_back(6);
+
+lower_bound(v.begin(), v.end(), 2) - v.begin();
+// 1, target과 같은 값 중 가장 작은 인덱스
+v.end() - upper_bound(v.begin(), v.end(), 2);
+// 3, target과 같은 값 중 가장 큰 인덱스
+
+lower_bound(v.begin(), v.end(), 3) - v.begin();
+// 4, target보다 크지만 가장 작은 인덱스
+v.end() - upper_bound(v.begin(), v.end(), 3);
+// 3, target보다 작지만 가장 큰 인덱스
+```
+
+- 직접 함수 구현
+
+```cpp
+#include <vector>
+
+using namespace std;
+
+int lowerBound(vector<int>& vec, int target){
+  int left=0;   // 처음
+  int right=vec.size();   // 마지막
+
+  while(left<right){
+    int mid=(left+right)/2;   // 중간 인덱스
+
+    if(vec[mid]<target) left=mid+1;
+    else right=mid;
+  }
+
+  return left;  // left
+}
+
+int upperBound(vector<int>& vec, int target){
+  int left=0;   // 처음
+  int right=vec.size();   // 마지막
+
+  while(left<right){
+    int mid=(left+right)/2;   // 중간 인덱스
+
+    if(vec[mid]<=target) left=mid+1;  // lowerBound()와 '=' 차이
+    else right=mid;
+  }
+
+  return right-1;   // right-1
+}
+
+vector<int> v;
+v.push_back(1);
+v.push_back(2);
+v.push_back(2);
+v.push_back(2);
+v.push_back(4);
+v.push_back(5);
+v.push_back(6);
+
+lowerBound(v, 2); // 1, target과 같은 값 중 가장 작은 인덱스
+upperBound(v, 2); // 3, target과 같은 값 중 가장 큰 인덱스
+
+lowerBound(v, 3); // 4, target보다 크지만 가장 작은 인덱스
+upperBound(v, 3); // 3, target보다 작지만 가장 큰 인덱스
+```
+
 ### 출력(cout, printf)
 
 - `#include <iostream>`
@@ -664,8 +759,6 @@ auto iter=set_difference(v1.begin(), v1.end(), v2.begin(), v2.end(), result.begi
 result.resize(iter-result.begin());   // iter-0 크기로 resize
 result.erase(iter, result.end());   // iter 부터 end()까지 지우기
 ```
-
----
 
 ## String of C++
 
