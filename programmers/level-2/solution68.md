@@ -55,5 +55,38 @@ vector<int> solution(vector<vector<int>> arr) {
 ### JavaScript
 
 ```js
+function solution(arr) {
+  var answer = [];
 
+  let countZero = 0; // 0 개수
+  let countOne = 0; // 1 개수
+
+  const divideGo = (row, col, size) => {
+    let cnt = 0;
+
+    for (let x = row; x < row + size; x++) {
+      for (let y = col; y < col + size; y++) {
+        cnt += arr[x][y];
+      }
+    }
+
+    if (cnt === 0) countZero++;
+    // 0으로 압축
+    else if (cnt === size * size) countOne++;
+    // 1로 압축
+    else {
+      divideGo(row, col, size / 2); // 좌상
+      divideGo(row, col + size / 2, size / 2); // 우상
+      divideGo(row + size / 2, col, size / 2); // 좌하
+      divideGo(row + size / 2, col + size / 2, size / 2); // 우하
+    }
+  };
+
+  divideGo(0, 0, arr.length);
+
+  answer.push(countZero);
+  answer.push(countOne);
+
+  return answer;
+}
 ```
