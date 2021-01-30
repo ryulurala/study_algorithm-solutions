@@ -93,6 +93,9 @@ This is storage of algorithm solutions
 |   22   |       [순위 검색](/programmers/level-2/solution67.md)       | 2021-01-29 | Level-2 | `.cpp`, `.js` |
 |   23   | [쿼드압축 후 개수 세기](/programmers/level-2/solution68.md) | 2021-01-29 | Level-2 | `.cpp`, `.js` |
 |   24   | [가장 큰 정사각형 찾기](/programmers/level-2/solution69.md) | 2021-01-30 | Level-2 | `.cpp`, `.js` |
+|   25   |      [올바른 괄호](/programmers/level-2/solution70.md)      | 2021-01-30 | Level-2 | `.cpp`, `.js` |
+|   26   |     [다음 큰 숫자](/programmers/level-2/solution71.md)      | 2021-01-30 | Level-2 | `.cpp`, `.js` |
+|   27   |       [땅따먹기](/programmers/level-2/solution72.md)        | 2021-01-30 | Level-2 | `.cpp`, `.js` |
 
 ### Level-3
 
