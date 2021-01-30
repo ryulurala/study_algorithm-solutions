@@ -96,6 +96,13 @@ This is storage of algorithm solutions
 |   25   |      [올바른 괄호](/programmers/level-2/solution70.md)      | 2021-01-30 | Level-2 | `.cpp`, `.js` |
 |   26   |     [다음 큰 숫자](/programmers/level-2/solution71.md)      | 2021-01-30 | Level-2 | `.cpp`, `.js` |
 |   27   |       [땅따먹기](/programmers/level-2/solution72.md)        | 2021-01-30 | Level-2 | `.cpp`, `.js` |
+|   28   |        [폰켓몬](/programmers/level-2/solution73.md)         | 2021-01-30 | Level-2 | `.cpp`, `.js` |
+|   29   |      [숫자의 표현](/programmers/level-2/solution74.md)      | 2021-01-31 | Level-2 | `.cpp`, `.js` |
+|   30   |  [이진 변환 반복하기](/programmers/level-2/solution75.md)   | 2021-01-31 | Level-2 | `.cpp`, `.js` |
+|   31   |    [최댓값과 최솟값](/programmers/level-2/solution76.md)    | 2021-01-31 | Level-2 | `.cpp`, `.js` |
+|   32   |     [최솟값 만들기](/programmers/level-2/solution77.md)     | 2021-01-31 | Level-2 | `.cpp`, `.js` |
+|   33   |      [피보나치 수](/programmers/level-2/solution78.md)      | 2021-01-31 | Level-2 | `.cpp`, `.js` |
+|   34   |      [행렬의 곱셈](/programmers/level-2/solution79.md)      | 2021-01-31 | Level-2 | `.cpp`, `.js` |
 
 ### Level-3
 
