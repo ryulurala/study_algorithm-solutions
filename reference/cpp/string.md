@@ -65,7 +65,7 @@ str.substr();   // str 전체 문자열 반환
 str.substr(index);    // index부터 부분 문자열 반환
 str.substr(index, count);     // index부터 count개수 만큼 부분 문자열 반환
 
-str.replace(iter, count, str1);   // iter가 가리키는 원소부터 count 개수만큼 str1으로 바꿈
+str.replace(index, count, str1);   // index부터 count 개수만큼 str1으로 바꿈
 
 stoi(str);    // str을 int형으로 바꾼 int형 반환
 stoi(str, nullptr, 2);    // str을 int형으로 바꾼 2진수 int형 반환
