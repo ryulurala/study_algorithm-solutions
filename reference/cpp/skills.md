@@ -698,6 +698,7 @@ merge(v1.begin(), v1.end(), v2.begin(), v2.end(), result.begin());
 - `set_union(v1.begin(), v1.end(), v2.begin(), v2.end(), result.begin())`
   > 중복 없이 합치기(합집합)  
   > `<algorithm>` 헤더 필요  
+  > 미리 정렬해야 함. **중요!!**  
   > v1과 v2를 합집합 연산으로 result 컨테이너에 할당 후 `iterator` 리턴  
   > v1을 기준으로 합집합 연산  
   > result 컨테이너는 미리 공간을 (v1+v2)크기로 미리 할당 후 resizing  
@@ -732,6 +733,7 @@ result.erase(iter, result.end());   // iter 부터 end()까지 지우기
 - `set_intersection(v1.begin(), v1.end(), v2.begin(), v2.end(), result.begin())`
   > 교집합 구하기  
   > `<algorithm>` 헤더 필요  
+  > 미리 정렬해야 함. **중요!!**  
   > v1과 v2를 교집합 연산으로 result 컨테이너에 할당 후 `iterator` 리턴  
   > v1을 기준으로 교집합 연산  
   > result 컨테이너는 미리 공간을 (v1 or v2))크기로 미리 할당 후 resizing  
@@ -767,6 +769,7 @@ result.erase(iter, result.end());   // iter 부터 end()까지 지우기
 
   > 차집합 구하기  
   > `<algorithm>` 헤더 필요  
+  > 미리 정렬해야 함. **중요!!**  
   > v1과 v2를 차집합 연산(`v1-v2`)으로 result에 할당 후 `iterator` 리턴  
   > v1을 기준으로 v2를 차집합 연산  
   > result 컨테이너는 미리 공간을 (v1 or v2))크기로 미리 할당 후 resizing  
