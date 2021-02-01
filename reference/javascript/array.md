@@ -103,6 +103,7 @@ array.find((item, index));
   > startIndex 부터 endIndex 전까지 복제본 리턴  
   > 원본 변경 X  
   > endIndex를 지정하지 않을 경우 끝까지 복제  
+  > (endIndex < 0)일 경우, 끝에서부터 세는 인덱스다.  
   > `array.slice()` 로 깊은 복사 가능
 - `array.splice(startIndex, deleteCount, value1, value2, ...)`
   > startIndex부터 deleteCount개수만큼 삭제하고 value1, value2, ...로 교체  
@@ -116,6 +117,8 @@ let array = [1, 2, 3, 4, 5, 6, 7];
 array.slice(); // 깊은 복사
 array.slice(2); // [3, 4, 5, 6, 7]
 array.slice(2, 5); // [3, 4, 5]
+array.slice(0, -4); // [1, 2, 3], 0번 인덱스부터 끝에서 1번 째 인덱스 전까지
+array.slice(-1); // [7], 끝에서부터 1번 째 인덱스
 console.log(array); // [1, 2, 3, 4, 5, 6, 7]
 
 console.log(array.splice(1, 4, 11, 12)); // [2, 3, 4, 5]
@@ -167,3 +170,5 @@ let reduceResult2 = arr.reduce((prev, value) => {
   return prev;
 }, []); // [2, 4, 6, 8, 10]
 ```
+
+---
