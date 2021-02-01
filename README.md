@@ -113,6 +113,7 @@ This is storage of algorithm solutions
 |   42   |      [뉴스 클러스터](/programmers/level-2/solution87.md)      | 2021-02-01 | Level-2 | `.cpp`, `.js` |
 |   43   |       [프렌즈4블록](/programmers/level-2/solution88.md)       | 2021-02-01 | Level-2 | `.cpp`, `.js` |
 |   44   |          [캐시](/programmers/level-2/solution89.md)           | 2021-02-01 | Level-2 | `.cpp`, `.js` |
+|   45   |       [오픈채팅방](/programmers/level-2/solution90.md)        | 2021-02-02 | Level-2 | `.cpp`, `.js` |
 
 ### Level-3
 
