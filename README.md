@@ -67,42 +67,49 @@ This is storage of algorithm solutions
 
 ### Level-2
 
-| Number |                            Name                             |    Date    |  Level  |   Language    |
-| :----: | :---------------------------------------------------------: | :--------: | :-----: | :-----------: |
-|   1    |       [기능개발](/programmers/level-2/solution44.md)        | 2021-01-21 | Level-2 | `.cpp`, `.js` |
-|   2    |  [다리를 지나는 트럭](/programmers/level-2/solution45.md)   | 2021-01-21 | Level-2 | `.cpp`, `.js` |
-|   3    |       [스킬트리](/programmers/level-2/solution46.md)        | 2021-01-21 | Level-2 | `.cpp`, `.js` |
-|   4    |     [멀쩡한 사각형](/programmers/level-2/solution47.md)     | 2021-01-21 | Level-2 | `.cpp`, `.js` |
-|   5    |    [124 나라의 숫자](/programmers/level-2/solution48.md)    | 2021-01-21 | Level-2 | `.cpp`, `.js` |
-|   6    |        [프린터](/programmers/level-2/solution49.md)         | 2021-01-21 | Level-2 | `.cpp`, `.js` |
-|   7    |      [문자열 압축](/programmers/level-2/solution50.md)      | 2021-01-22 | Level-2 | `.cpp`, `.js` |
-|   8    |      [삼각 달팽이](/programmers/level-2/solution51.md)      | 2021-01-22 | Level-2 | `.cpp`, `.js` |
-|   9    |     [큰 수 만들기](/programmers/level-2/solution52.md)      | 2021-01-22 | Level-2 | `.cpp`, `.js` |
-|   10   |       [괄호 변환](/programmers/level-2/solution53.md)       | 2021-01-22 | Level-2 | `.cpp`, `.js` |
-|   11   |      [수식 최대화](/programmers/level-2/solution54.md)      | 2021-01-22 | Level-2 | `.cpp`, `.js` |
-|   12   |         [튜플](/programmers/level-2/solution55.md)          | 2021-01-23 | Level-2 | `.cpp`, `.js` |
-|   13   |      [가장 큰 수](/programmers/level-2/solution58.md)       | 2021-01-25 | Level-2 | `.cpp`, `.js` |
-|   14   |       [조이스틱](/programmers/level-2/solution59.md)        | 2021-01-25 | Level-2 | `.cpp`, `.js` |
-|   15   |       [소수 찾기](/programmers/level-2/solution60.md)       | 2021-01-25 | Level-2 | `.cpp`, `.js` |
-|   16   |      [메뉴 리뉴얼](/programmers/level-2/solution61.md)      | 2021-01-27 | Level-2 | `.cpp`, `.js` |
-|   17   |        [H-Index](/programmers/level-2/solution62.md)        | 2021-01-28 | Level-2 | `.cpp`, `.js` |
-|   18   |         [위장](/programmers/level-2/solution63.md)          | 2021-01-28 | Level-2 | `.cpp`, `.js` |
-|   19   |       [구명보트](/programmers/level-2/solution64.md)        | 2021-01-28 | Level-2 | `.cpp`, `.js` |
-|   20   |       [타겟 넘버](/programmers/level-2/solution65.md)       | 2021-01-28 | Level-2 | `.cpp`, `.js` |
-|   21   |         [카펫](/programmers/level-2/solution66.md)          | 2021-01-28 | Level-2 | `.cpp`, `.js` |
-|   22   |       [순위 검색](/programmers/level-2/solution67.md)       | 2021-01-29 | Level-2 | `.cpp`, `.js` |
-|   23   | [쿼드압축 후 개수 세기](/programmers/level-2/solution68.md) | 2021-01-29 | Level-2 | `.cpp`, `.js` |
-|   24   | [가장 큰 정사각형 찾기](/programmers/level-2/solution69.md) | 2021-01-30 | Level-2 | `.cpp`, `.js` |
-|   25   |      [올바른 괄호](/programmers/level-2/solution70.md)      | 2021-01-30 | Level-2 | `.cpp`, `.js` |
-|   26   |     [다음 큰 숫자](/programmers/level-2/solution71.md)      | 2021-01-30 | Level-2 | `.cpp`, `.js` |
-|   27   |       [땅따먹기](/programmers/level-2/solution72.md)        | 2021-01-30 | Level-2 | `.cpp`, `.js` |
-|   28   |        [폰켓몬](/programmers/level-2/solution73.md)         | 2021-01-30 | Level-2 | `.cpp`, `.js` |
-|   29   |      [숫자의 표현](/programmers/level-2/solution74.md)      | 2021-01-31 | Level-2 | `.cpp`, `.js` |
-|   30   |  [이진 변환 반복하기](/programmers/level-2/solution75.md)   | 2021-01-31 | Level-2 | `.cpp`, `.js` |
-|   31   |    [최댓값과 최솟값](/programmers/level-2/solution76.md)    | 2021-01-31 | Level-2 | `.cpp`, `.js` |
-|   32   |     [최솟값 만들기](/programmers/level-2/solution77.md)     | 2021-01-31 | Level-2 | `.cpp`, `.js` |
-|   33   |      [피보나치 수](/programmers/level-2/solution78.md)      | 2021-01-31 | Level-2 | `.cpp`, `.js` |
-|   34   |      [행렬의 곱셈](/programmers/level-2/solution79.md)      | 2021-01-31 | Level-2 | `.cpp`, `.js` |
+| Number |                             Name                              |    Date    |  Level  |   Language    |
+| :----: | :-----------------------------------------------------------: | :--------: | :-----: | :-----------: |
+|   1    |        [기능개발](/programmers/level-2/solution44.md)         | 2021-01-21 | Level-2 | `.cpp`, `.js` |
+|   2    |   [다리를 지나는 트럭](/programmers/level-2/solution45.md)    | 2021-01-21 | Level-2 | `.cpp`, `.js` |
+|   3    |        [스킬트리](/programmers/level-2/solution46.md)         | 2021-01-21 | Level-2 | `.cpp`, `.js` |
+|   4    |      [멀쩡한 사각형](/programmers/level-2/solution47.md)      | 2021-01-21 | Level-2 | `.cpp`, `.js` |
+|   5    |     [124 나라의 숫자](/programmers/level-2/solution48.md)     | 2021-01-21 | Level-2 | `.cpp`, `.js` |
+|   6    |         [프린터](/programmers/level-2/solution49.md)          | 2021-01-21 | Level-2 | `.cpp`, `.js` |
+|   7    |       [문자열 압축](/programmers/level-2/solution50.md)       | 2021-01-22 | Level-2 | `.cpp`, `.js` |
+|   8    |       [삼각 달팽이](/programmers/level-2/solution51.md)       | 2021-01-22 | Level-2 | `.cpp`, `.js` |
+|   9    |      [큰 수 만들기](/programmers/level-2/solution52.md)       | 2021-01-22 | Level-2 | `.cpp`, `.js` |
+|   10   |        [괄호 변환](/programmers/level-2/solution53.md)        | 2021-01-22 | Level-2 | `.cpp`, `.js` |
+|   11   |       [수식 최대화](/programmers/level-2/solution54.md)       | 2021-01-22 | Level-2 | `.cpp`, `.js` |
+|   12   |          [튜플](/programmers/level-2/solution55.md)           | 2021-01-23 | Level-2 | `.cpp`, `.js` |
+|   13   |       [가장 큰 수](/programmers/level-2/solution58.md)        | 2021-01-25 | Level-2 | `.cpp`, `.js` |
+|   14   |        [조이스틱](/programmers/level-2/solution59.md)         | 2021-01-25 | Level-2 | `.cpp`, `.js` |
+|   15   |        [소수 찾기](/programmers/level-2/solution60.md)        | 2021-01-25 | Level-2 | `.cpp`, `.js` |
+|   16   |       [메뉴 리뉴얼](/programmers/level-2/solution61.md)       | 2021-01-27 | Level-2 | `.cpp`, `.js` |
+|   17   |         [H-Index](/programmers/level-2/solution62.md)         | 2021-01-28 | Level-2 | `.cpp`, `.js` |
+|   18   |          [위장](/programmers/level-2/solution63.md)           | 2021-01-28 | Level-2 | `.cpp`, `.js` |
+|   19   |        [구명보트](/programmers/level-2/solution64.md)         | 2021-01-28 | Level-2 | `.cpp`, `.js` |
+|   20   |        [타겟 넘버](/programmers/level-2/solution65.md)        | 2021-01-28 | Level-2 | `.cpp`, `.js` |
+|   21   |          [카펫](/programmers/level-2/solution66.md)           | 2021-01-28 | Level-2 | `.cpp`, `.js` |
+|   22   |        [순위 검색](/programmers/level-2/solution67.md)        | 2021-01-29 | Level-2 | `.cpp`, `.js` |
+|   23   |  [쿼드압축 후 개수 세기](/programmers/level-2/solution68.md)  | 2021-01-29 | Level-2 | `.cpp`, `.js` |
+|   24   |  [가장 큰 정사각형 찾기](/programmers/level-2/solution69.md)  | 2021-01-30 | Level-2 | `.cpp`, `.js` |
+|   25   |       [올바른 괄호](/programmers/level-2/solution70.md)       | 2021-01-30 | Level-2 | `.cpp`, `.js` |
+|   26   |      [다음 큰 숫자](/programmers/level-2/solution71.md)       | 2021-01-30 | Level-2 | `.cpp`, `.js` |
+|   27   |        [땅따먹기](/programmers/level-2/solution72.md)         | 2021-01-30 | Level-2 | `.cpp`, `.js` |
+|   28   |         [폰켓몬](/programmers/level-2/solution73.md)          | 2021-01-30 | Level-2 | `.cpp`, `.js` |
+|   29   |       [숫자의 표현](/programmers/level-2/solution74.md)       | 2021-01-31 | Level-2 | `.cpp`, `.js` |
+|   30   |   [이진 변환 반복하기](/programmers/level-2/solution75.md)    | 2021-01-31 | Level-2 | `.cpp`, `.js` |
+|   31   |     [최댓값과 최솟값](/programmers/level-2/solution76.md)     | 2021-01-31 | Level-2 | `.cpp`, `.js` |
+|   32   |      [최솟값 만들기](/programmers/level-2/solution77.md)      | 2021-01-31 | Level-2 | `.cpp`, `.js` |
+|   33   |       [피보나치 수](/programmers/level-2/solution78.md)       | 2021-01-31 | Level-2 | `.cpp`, `.js` |
+|   34   |       [행렬의 곱셈](/programmers/level-2/solution79.md)       | 2021-01-31 | Level-2 | `.cpp`, `.js` |
+|   35   | [JadenCase 문자열 만들기](/programmers/level-2/solution80.md) | 2021-02-01 | Level-2 | `.cpp`, `.js` |
+|   36   |    [N개의 최소공배수](/programmers/level-2/solution81.md)     | 2021-02-01 | Level-2 | `.cpp`, `.js` |
+|   37   |     [짝지어 제거하기](/programmers/level-2/solution82.md)     | 2021-02-01 | Level-2 | `.cpp`, `.js` |
+|   38   |       [소수 만들기](/programmers/level-2/solution83.md)       | 2021-02-01 | Level-2 | `.cpp`, `.js` |
+|   39   |    [점프와 순간 이동](/programmers/level-2/solution84.md)     | 2021-02-01 | Level-2 | `.cpp`, `.js` |
+|   40   |      [영어 끝말잇기](/programmers/level-2/solution85.md)      | 2021-02-01 | Level-2 | `.cpp`, `.js` |
+|   41   |       [예상 대진표](/programmers/level-2/solution86.md)       | 2021-02-01 | Level-2 | `.cpp`, `.js` |
 
 ### Level-3
 
