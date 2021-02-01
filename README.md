@@ -110,6 +110,9 @@ This is storage of algorithm solutions
 |   39   |    [점프와 순간 이동](/programmers/level-2/solution84.md)     | 2021-02-01 | Level-2 | `.cpp`, `.js` |
 |   40   |      [영어 끝말잇기](/programmers/level-2/solution85.md)      | 2021-02-01 | Level-2 | `.cpp`, `.js` |
 |   41   |       [예상 대진표](/programmers/level-2/solution86.md)       | 2021-02-01 | Level-2 | `.cpp`, `.js` |
+|   42   |      [뉴스 클러스터](/programmers/level-2/solution87.md)      | 2021-02-01 | Level-2 | `.cpp`, `.js` |
+|   43   |       [프렌즈4블록](/programmers/level-2/solution88.md)       | 2021-02-01 | Level-2 | `.cpp`, `.js` |
+|   44   |          [캐시](/programmers/level-2/solution89.md)           | 2021-02-01 | Level-2 | `.cpp`, `.js` |
 
 ### Level-3
 
