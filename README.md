@@ -114,6 +114,11 @@ This is storage of algorithm solutions
 |   43   |       [프렌즈4블록](/programmers/level-2/solution88.md)       | 2021-02-01 | Level-2 | `.cpp`, `.js` |
 |   44   |          [캐시](/programmers/level-2/solution89.md)           | 2021-02-01 | Level-2 | `.cpp`, `.js` |
 |   45   |       [오픈채팅방](/programmers/level-2/solution90.md)        | 2021-02-02 | Level-2 | `.cpp`, `.js` |
+|   46   |         [후보키](/programmers/level-2/solution91.md)          | 2021-02-03 | Level-2 | `.cpp`, `.js` |
+|   47   |        [방금그곡](/programmers/level-2/solution92.md)         | 2021-02-03 | Level-2 | `.cpp`, `.js` |
+|   48   |          [압축](/programmers/level-2/solution93.md)           | 2021-02-03 | Level-2 | `.cpp`, `.js` |
+|   49   |       [파일명 정렬](/programmers/level-2/solution94.md)       | 2021-02-03 | Level-2 | `.cpp`, `.js` |
+|   50   |       [n진수 게임](/programmers/level-2/solution95.md)        | 2021-02-03 | Level-2 | `.cpp`, `.js` |
 
 ### Level-3
 
