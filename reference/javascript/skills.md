@@ -197,6 +197,7 @@ fruits.sort((a, b) => {
   else if (a > b) return 1;
   else return 0;
 });
+fruits.sort((a, b) => (a < b ? -1 : 1)); // 위와 같음
 
 fruits.sort((a, b) => {
   // 내림차순
@@ -204,6 +205,7 @@ fruits.sort((a, b) => {
   else if (a < b) return 1;
   else return 0;
 });
+fruits.sort((a, b) => (a > b ? -1 : 1)); // 위와 같음
 ```
 
 ### 문자열 or 배열 이어붙이기
