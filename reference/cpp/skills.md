@@ -45,20 +45,11 @@ toc: true
 
 using namespace std;
 
-string str1="hi bye 2021 36.5";   // 공백 split은 알아서 sstream이 해줌.
-string str2="hi, bye, 2021, 36.5";  // ',' split
+string str1="hi bye 2021 36.5";   // 공백으로 sstream이 split 해줌.
 
-// 구분자 split -> 공백 split 으로 바꾼다.
-int index=str2.find(',');
-while(index!=string::npos){
-  str2.replace(index, 1, "");
-  index=str2.find(',');
-}
-
-// stringstream ss(str2); 아래 두 줄과 같음
-stringstream ss;
-ss.str(str2);
-
+// stringstream ss1;
+// ss1.str(str1);
+stringstream ss1(str1);   // 위 두 줄과 같음
 string hi, bye;
 int year;
 float temperature;
@@ -67,6 +58,21 @@ ss >> hi;   // "hi", string형
 ss >> bye;    // "bye", string형
 ss >> year;   // 2021, int형
 ss >> temperature;    // 36.5, float형
+
+
+string str2="hi, bye, 2021, 36.5";  // ',' split
+// stringstream ss(str2); 아래 두 줄과 같음
+stringstream ss2;
+ss.str(str2);
+string str;
+int k=0;
+while(getline(ss2, str, ',')){    // line을 읽어서 ',' split
+  if(k==0) hi=str;
+  else if(k==1) bye=str;
+  else if(k==2) year=stoi(str);
+  else temperature=stof(str);
+  k++;
+}
 
 ```
 
