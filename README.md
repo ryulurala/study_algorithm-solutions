@@ -126,6 +126,10 @@ This is storage of algorithm solutions
 | :----: | :---------------------------------------------------: | :--------: | :-----: | :-----------: |
 |   1    |   [불량 사용자](/programmers/level-3/solution56.md)   | 2021-01-23 | Level-3 | `.cpp`, `.js` |
 |   2    | [징검다리 건너기](/programmers/level-3/solution57.md) | 2021-01-23 | Level-3 | `.cpp`, `.js` |
+|   3    |   [추석 트래픽](/programmers/level-3/solution96.md)   | 2021-02-03 | Level-3 | `.cpp`, `.js` |
+|   4    |   [N으로 표현](/programmers/level-3/solution97.md)    | 2021-02-03 | Level-3 | `.cpp`, `.js` |
+|   5    |  [2 x n 타일링](/programmers/level-3/solution98.md)   | 2021-02-03 | Level-3 | `.cpp`, `.js` |
+|   6    |  [풍선 터트리기](/programmers/level-3/solution99.md)  | 2021-02-03 | Level-3 | `.cpp`, `.js` |
 
 ## Baekjoon Solutions
 
