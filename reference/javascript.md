@@ -8,6 +8,30 @@ toc: true
 
 ## Skills by JavaScript
 
+### 깊은 복사(Deep-Copy)
+
+- `.slice()` 이용
+  > 복사본을 리턴한다.
+  > 단일 복사
+- `...(spread 연산자)` 이용
+  > 복사본을 리턴
+  > 단일 복사
+
+```js
+const arr = [
+  [1, 2],
+  [3, 4],
+  [5, 6],
+];
+const arr1 = arr.slice(); // 얕은 복사: [1, 2], [3, 4], [5, 6]의 주소는 arr와 같다.
+const arr2 = arr.slice().map((v) => [...v]); // 깊은 복사: [1, 2], [3, 4], [5, 6]까지 복사: spread 이용
+const arr3 = arr.slice().map((v) => v.slice()); // 깊은 복사: [1, 2], [3, 4], [5, 6]까지 복사: .slice() 이용
+
+const str = "hi bye";
+const str1 = str; // 깊은 복사, string은 '=' 연산자로 복사가 된다.
+const str2 = str.slice(); // 깊은 복사
+```
+
 ### 이진탐색(Binary search)
 
 - 기본 규칙
