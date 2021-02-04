@@ -43,7 +43,7 @@ stack[stack.length - 1]; // 5
 
 +++++
 
-- `unShift(element)`
+- `unshift(element)`
   > Array 앞에 원소 추가
 
 ```js
@@ -56,7 +56,7 @@ stack[queue.length - 1]; // 6
 
 // +++++
 
-queue.unShift(4); // [4, 2, 3, 4, 5, 6]
+queue.unshift(4); // [4, 2, 3, 4, 5, 6]
 ```
 
 ### Map
