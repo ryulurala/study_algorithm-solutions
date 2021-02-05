@@ -136,6 +136,7 @@ This is storage of algorithm solutions
 |   10   |  [가장 먼 노드](/programmers/level-3/solution103.md)   | 2021-02-05 | Level-3 | `.cpp`, `.js` |
 |   11   |   [단속카메라](/programmers/level-3/solution104.md)    | 2021-02-05 | Level-3 | `.cpp`, `.js` |
 |   12   |    [단어 변환](/programmers/level-3/solution105.md)    | 2021-02-05 | Level-3 | `.cpp`, `.js` |
+|   13   |   [섬 연결하기](/programmers/level-3/solution106.md)   | 2021-02-05 | Level-3 | `.cpp`, `.js` |
 
 ## Baekjoon Solutions
 
