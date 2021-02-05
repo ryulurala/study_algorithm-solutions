@@ -122,16 +122,17 @@ This is storage of algorithm solutions
 
 ### Level-3
 
-| Number |                         Name                          |    Date    |  Level  |   Language    |
-| :----: | :---------------------------------------------------: | :--------: | :-----: | :-----------: |
-|   1    |   [불량 사용자](/programmers/level-3/solution56.md)   | 2021-01-23 | Level-3 | `.cpp`, `.js` |
-|   2    | [징검다리 건너기](/programmers/level-3/solution57.md) | 2021-01-23 | Level-3 | `.cpp`, `.js` |
-|   3    |   [추석 트래픽](/programmers/level-3/solution96.md)   | 2021-02-03 | Level-3 | `.cpp`, `.js` |
-|   4    |   [N으로 표현](/programmers/level-3/solution97.md)    | 2021-02-03 | Level-3 | `.cpp`, `.js` |
-|   5    |  [2 x n 타일링](/programmers/level-3/solution98.md)   | 2021-02-03 | Level-3 | `.cpp`, `.js` |
-|   6    |  [풍선 터트리기](/programmers/level-3/solution99.md)  | 2021-02-03 | Level-3 | `.cpp`, `.js` |
-|   7    |    [네트워크](/programmers/level-3/solution100.md)    | 2021-02-04 | Level-3 | `.cpp`, `.js` |
-|   8    | [자물쇠와 열쇠](/programmers/level-3/solution101.md)  | 2021-02-05 | Level-3 | `.cpp`, `.js` |
+| Number |                          Name                          |    Date    |  Level  |   Language    |
+| :----: | :----------------------------------------------------: | :--------: | :-----: | :-----------: |
+|   1    |   [불량 사용자](/programmers/level-3/solution56.md)    | 2021-01-23 | Level-3 | `.cpp`, `.js` |
+|   2    | [징검다리 건너기](/programmers/level-3/solution57.md)  | 2021-01-23 | Level-3 | `.cpp`, `.js` |
+|   3    |   [추석 트래픽](/programmers/level-3/solution96.md)    | 2021-02-03 | Level-3 | `.cpp`, `.js` |
+|   4    |    [N으로 표현](/programmers/level-3/solution97.md)    | 2021-02-03 | Level-3 | `.cpp`, `.js` |
+|   5    |   [2 x n 타일링](/programmers/level-3/solution98.md)   | 2021-02-03 | Level-3 | `.cpp`, `.js` |
+|   6    |  [풍선 터트리기](/programmers/level-3/solution99.md)   | 2021-02-03 | Level-3 | `.cpp`, `.js` |
+|   7    |    [네트워크](/programmers/level-3/solution100.md)     | 2021-02-04 | Level-3 | `.cpp`, `.js` |
+|   8    |  [자물쇠와 열쇠](/programmers/level-3/solution101.md)  | 2021-02-05 | Level-3 | `.cpp`, `.js` |
+|   9    | [디스크 컨트롤러](/programmers/level-3/solution102.md) | 2021-02-05 | Level-3 | `.cpp`, `.js` |
 
 ## Baekjoon Solutions
 
