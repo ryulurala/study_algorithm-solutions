@@ -581,11 +581,11 @@ int dfsByStack(Node root){  //  ex) 연결된 개수 리턴하는 DFS
       // 방문하지 않았으면 스택에 삽입
       if(node[i].check == false)
       {
-        stack.push_back(node[i]); // 다음에 갈 노드
-        node[i].check = true;     // 방문 처리
         stack.push_back(node);    // 현재 노드(pop을 했기 때문에 돌아가려면 필요)
+        node[i].check = true;     // 방문 처리
+        stack.push_back(node[i]); // 다음에 갈 노드
         break;
-    }
+      }
     }
   }
 }
