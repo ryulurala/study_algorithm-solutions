@@ -139,6 +139,8 @@ This is storage of algorithm solutions
 |   12   |    [단어 변환](/programmers/level-3/solution105.md)    | 2021-02-05 | Level-3 | `.cpp`, `.js` |
 |   13   |   [섬 연결하기](/programmers/level-3/solution106.md)   | 2021-02-05 | Level-3 | `.cpp`, `.js` |
 |   14   |    [여행경로](/programmers/level-3/solution107.md)     | 2021-02-06 | Level-3 | `.cpp`, `.js` |
+|   15   | [이중우선순위큐](/programmers/level-3/solution109.md)  | 2021-02-06 | Level-3 | `.cpp`, `.js` |
+|   16   |    [입국심사](/programmers/level-3/solution110.md)     | 2021-02-06 | Level-3 | `.cpp`, `.js` |
 
 ## Baekjoon Solutions
 
