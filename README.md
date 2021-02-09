@@ -144,6 +144,7 @@ This is storage of algorithm solutions
 |   17   |   [베스트앨범](/programmers/level-3/solution111.md)    | 2021-02-07 | Level-3 | `.cpp`, `.js` |
 |   18   |      [순위](/programmers/level-3/solution112.md)       | 2021-02-08 | Level-3 | `.cpp`, `.js` |
 |   19   | [합승 택시 요금](/programmers/level-3/solution113.md)  | 2021-02-08 | Level-3 | `.cpp`, `.js` |
+|   20   |    [광고 삽입](/programmers/level-3/solution114.md)    | 2021-02-09 | Level-3 | `.cpp`, `.js` |
 
 ## Baekjoon Solutions
 
