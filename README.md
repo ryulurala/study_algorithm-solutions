@@ -147,6 +147,8 @@ This is storage of algorithm solutions
 |   20   |    [광고 삽입](/programmers/level-3/solution114.md)     | 2021-02-09 | Level-3 | `.cpp`, `.js` |
 |   21   | [가장 긴 팰린드롬](/programmers/level-3/solution115.md) | 2021-02-10 | Level-3 | `.cpp`, `.js` |
 |   22   |  [기둥과 보 설치](/programmers/level-3/solution116.md)  | 2021-02-12 | Level-3 | `.cpp`, `.js` |
+|   23   |    [멀리 뛰기](/programmers/level-3/solution117.md)     | 2021-02-13 | Level-3 | `.cpp`, `.js` |
+|   24   |     [거스름돈](/programmers/level-3/solution118.md)     | 2021-02-13 | Level-3 | `.cpp`, `.js` |
 
 ## Baekjoon Solutions
 
