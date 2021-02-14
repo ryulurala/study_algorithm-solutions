@@ -28,6 +28,35 @@ toc: true
 
 ## Skills by C++
 
+### 모든 부분집합 by `bit` `&`
+
+- `bit` `&` 연산으로 모든 부분집합 구하기
+
+```cpp
+#include <vector>
+
+using namespace std;
+
+vector<vector<int> > getSubsets(vector<int> arr){
+    vector<vector<int> > totalSet;      // 결과 Set
+    int totalCount = (1 << arr.size()); // 부분 집합 갯수, 2^(arr.length)
+
+    for(int k=0; k<totalCount; k++){
+        vector<int> subSet;     // 부분 집합
+
+        for(int i=0; i<arr.size(); i++){
+            if(k&(1<<i)){
+                // bit 마다 '&' 연산으로 true일 경우
+                subSet.push_back(arr[i]);
+            }
+        }
+        totalSet.push_back(subSet);
+    }
+
+    return totalSet;
+}
+```
+
 ### 문자열 추출(sstream)
 
 - `#include <sstream>`
