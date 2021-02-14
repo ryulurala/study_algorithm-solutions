@@ -8,6 +8,36 @@ toc: true
 
 ## Skills by JavaScript
 
+### 모든 부분집합 구하기(bit 연산)
+
+- 모든 부분집합 구하기
+  > `bit` `&` 연산 이용
+
+```js
+const arr = [1, 2, 3, 4];
+
+const getSet = (arr) => {
+  const totalSet = []; // 결과 Set
+  const totalCount = 1 << arr.length; // 부분 집합 갯수, 2^(arr.length)
+
+  for (let k = 1; k <= totalCount; k++) {
+    const subSet = []; // 부분 집합
+
+    for (let i = 0; i < arr.length; i++) {
+      if (k & (1 << i)) {
+        // bit 마다 '&' 연산으로 true일 경우
+        subSet.push(arr[i]);
+      }
+    }
+    totalSet.push(subSet);
+  }
+
+  return totalSet;
+};
+
+console.log(getSet(arr));
+```
+
 ### 깊은 복사(Deep-Copy)
 
 - `.slice()` 이용
