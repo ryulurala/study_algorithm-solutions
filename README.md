@@ -150,6 +150,7 @@ This is storage of algorithm solutions
 |   23   |    [멀리 뛰기](/programmers/level-3/solution117.md)     | 2021-02-13 | Level-3 | `.cpp`, `.js` |
 |   24   |     [거스름돈](/programmers/level-3/solution118.md)     | 2021-02-13 | Level-3 | `.cpp`, `.js` |
 |   25   |    [외벽 점검](/programmers/level-3/solution119.md)     | 2021-02-14 | Level-3 | `.cpp`, `.js` |
+|   26   |       [배달](/programmers/level-3/solution120.md)       | 2021-02-15 | Level-3 | `.cpp`, `.js` |
 
 ## Baekjoon Solutions
 
