@@ -158,6 +158,7 @@ This is storage of algorithm solutions
 |   31   |    [야근 지수](/programmers/level-3/solution125.md)     | 2021-02-20 | Level-3 | `.cpp`, `.js` |
 |   32   |   [기지국 설치](/programmers/level-3/solution126.md)    | 2021-02-20 | Level-3 | `.cpp`, `.js` |
 |   33   |   [경주로 건설](/programmers/level-3/solution127.md)    | 2021-02-20 | Level-3 | `.cpp`, `.js` |
+|   34   |    [스타 수열](/programmers/level-3/solution128.md)     | 2021-02-21 | Level-3 | `.cpp`, `.js` |
 
 ## Baekjoon Solutions
 
