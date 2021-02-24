@@ -161,6 +161,8 @@ This is storage of algorithm solutions
 |   34   |    [스타 수열](/programmers/level-3/solution128.md)     | 2021-02-21 | Level-3 | `.cpp`, `.js` |
 |   35   |   [길 찾기 게임](/programmers/level-3/solution129.md)   | 2021-02-22 | Level-3 | `.cpp`, `.js` |
 |   36   |  [블록 이동하기](/programmers/level-3/solution130.md)   | 2021-02-22 | Level-3 | `.cpp`, `.js` |
+|   37   |   [하노이의 탑](/programmers/level-3/solution131.md)    | 2021-02-24 | Level-3 | `.cpp`, `.js` |
+|   38   |     [N-Queen](/programmers/level-3/solution132.md)      | 2021-02-24 | Level-3 | `.cpp`, `.js` |
 
 ## Baekjoon Solutions
 
