@@ -167,7 +167,12 @@ This is storage of algorithm solutions
 
 ## Baekjoon Solutions
 
-Coming soon  
-(Loding...)
+### Class-1
+
+| Number |                           Name                           |    Date    |  Class  |   Language    |
+| :----: | :------------------------------------------------------: | :--------: | :-----: | :-----------: |
+|   1    |      [A+B(1000번)](/baekjoon/Class-1/solution1.md)       | 2021-03-10 | Class-1 | `.cpp`, `.js` |
+|   2    | [두 수 비교하기(1330번)](/baekjoon/Class-1/solution2.md) | 2021-03-10 | Class-1 | `.cpp`, `.js` |
+|   3    |      [A-B(1001번)](/baekjoon/Class-1/solution3.md)       | 2021-03-10 | Class-1 | `.cpp`, `.js` |
 
 ---
