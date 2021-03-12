@@ -176,6 +176,6 @@ This is storage of algorithm solutions
 |   3    |      [A-B(1001번)](/baekjoon/Class-1/solution3.md)       | 2021-03-10 | Class-1 | `.cpp`, `.js` |
 |   4    |  [별 찍기 - 1(2438번)](/baekjoon/Class-1/solution4.md)   | 2021-03-12 | Class-1 | `.cpp`, `.js` |
 |   5    |     [최댓값(2562번)](/baekjoon/Class-1/solution5.md)     | 2021-03-12 | Class-1 | `.cpp`, `.js` |
-|   6    |      [문자열 반복](/baekjoon/Class-1/solution6.md)       | 2021-03-12 | Class-1 | `.cpp`, `.js` |
+|   6    |  [문자열 반복(2675번)](/baekjoon/Class-1/solution6.md)   | 2021-03-12 | Class-1 | `.cpp`, `.js` |
 
 ---

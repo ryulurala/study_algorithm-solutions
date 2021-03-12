@@ -1,5 +1,5 @@
 ---
-title: "문자열 반복"
+title: "문자열 반복(2675번)"
 category: 백준[Class-1]
 tags: [C++, JavaScript, 백준]
 date: "2021-03-12"
@@ -7,7 +7,7 @@ date: "2021-03-12"
 
 ## 문제 링크
 
-[문자열 반복](https://www.acmicpc.net/problem/2675)
+[문자열 반복(2675번)](https://www.acmicpc.net/problem/2675)
 
 ## C++
 
