@@ -1,5 +1,5 @@
 ---
-title: "A+B - 3(10950"
+title: "A+B - 3(10950)"
 category: 백준[Class-1]
 tags: [C++, JavaScript, 백준]
 date: "2021-03-13"
