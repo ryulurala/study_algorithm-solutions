@@ -177,5 +177,16 @@ This is storage of algorithm solutions
 |   4    |  [별 찍기 - 1(2438번)](/baekjoon/Class-1/solution4.md)   | 2021-03-12 | Class-1 | `.cpp`, `.js` |
 |   5    |     [최댓값(2562번)](/baekjoon/Class-1/solution5.md)     | 2021-03-12 | Class-1 | `.cpp`, `.js` |
 |   6    |  [문자열 반복(2675번)](/baekjoon/Class-1/solution6.md)   | 2021-03-12 | Class-1 | `.cpp`, `.js` |
+|   7    |      [구구단(2739)](/baekjoon/Class-1/solution7.md)      | 2021-03-13 | Class-1 | `.cpp`, `.js` |
+|   8    |       [음계(2920)](/baekjoon/Class-1/solution8.md)       | 2021-03-13 | Class-1 | `.cpp`, `.js` |
+|   9    |      [OX퀴즈(8958)](/baekjoon/Class-1/solution9.md)      | 2021-03-13 | Class-1 | `.cpp`, `.js` |
+|   10   |   [최소, 최대(10818)](/baekjoon/Class-1/solution10.md)   | 2021-03-13 | Class-1 | `.cpp`, `.js` |
+|   11   |    [사칙연산(10869)](/baekjoon/Class-1/solution11.md)    | 2021-03-13 | Class-1 | `.cpp`, `.js` |
+|   12   |    [A+B - 3(10950)](/baekjoon/Class-1/solution12.md)     | 2021-03-13 | Class-1 | `.cpp`, `.js` |
+|   13   |    [A+B - 4(10951)](/baekjoon/Class-1/solution13.md)     | 2021-03-13 | Class-1 | `.cpp`, `.js` |
+|   14   |    [A+B - 5(10952)](/baekjoon/Class-1/solution14.md)     | 2021-03-13 | Class-1 | `.cpp`, `.js` |
+|   15   |       [A/B(1008)](/baekjoon/Class-1/solution15.md)       | 2021-03-13 | Class-1 | `.cpp`, `.js` |
+|   16   |   [단어의 개수(1152)](/baekjoon/Class-1/solution16.md)   | 2021-03-13 | Class-1 | `.cpp`, `.js` |
+|   17   |    [단어 공부(1157)](/baekjoon/Class-1/solution17.md)    | 2021-03-13 | Class-1 | `.cpp`, `.js` |
 
 ---
