@@ -188,5 +188,10 @@ This is storage of algorithm solutions
 |   15   |       [A/B(1008)](/baekjoon/Class-1/solution15.md)       | 2021-03-13 | Class-1 | `.cpp`, `.js` |
 |   16   |   [단어의 개수(1152)](/baekjoon/Class-1/solution16.md)   | 2021-03-13 | Class-1 | `.cpp`, `.js` |
 |   17   |    [단어 공부(1157)](/baekjoon/Class-1/solution17.md)    | 2021-03-13 | Class-1 | `.cpp`, `.js` |
+|   18   |      [평균(1546)](/baekjoon/Class-1/solution18.md)       | 2021-03-14 | Class-1 | `.cpp`, `.js` |
+|   19   |   [별 찍기 - 2(2439)](/baekjoon/Class-1/solution19.md)   | 2021-03-14 | Class-1 | `.cpp`, `.js` |
+|   20   |     [검증수(2475)](/baekjoon/Class-1/solution20.md)      | 2021-03-14 | Class-1 | `.cpp`, `.js` |
+|   21   |   [숫자의 개수(2577)](/baekjoon/Class-1/solution21.md)   | 2021-03-14 | Class-1 | `.cpp`, `.js` |
+|   22   |     [N 찍기(2741)](/baekjoon/Class-1/solution22.md)      | 2021-03-14 | Class-1 | `.cpp`, `.js` |
 
 ---
