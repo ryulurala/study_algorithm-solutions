@@ -193,5 +193,14 @@ This is storage of algorithm solutions
 |   20   |     [검증수(2475)](/baekjoon/Class-1/solution20.md)      | 2021-03-14 | Class-1 | `.cpp`, `.js` |
 |   21   |   [숫자의 개수(2577)](/baekjoon/Class-1/solution21.md)   | 2021-03-14 | Class-1 | `.cpp`, `.js` |
 |   22   |     [N 찍기(2741)](/baekjoon/Class-1/solution22.md)      | 2021-03-14 | Class-1 | `.cpp`, `.js` |
+|   23   |     [기찍 N(2742)](/baekjoon/Class-1/solution23.md)      | 2021-03-15 | Class-1 | `.cpp`, `.js` |
+|   24   |      [윤년(2753)](/baekjoon/Class-1/solution24.md)       | 2021-03-15 | Class-1 | `.cpp`, `.js` |
+|   25   |    [알람 시계(2884)](/baekjoon/Class-1/solution25.md)    | 2021-03-15 | Class-1 | `.cpp`, `.js` |
+|   26   |      [상수(2908)](/baekjoon/Class-1/solution26.md)       | 2021-03-15 | Class-1 | `.cpp`, `.js` |
+|   27   |     [나머지(3052)](/baekjoon/Class-1/solution27.md)      | 2021-03-15 | Class-1 | `.cpp`, `.js` |
+|   28   |    [시험 성적(9498)](/baekjoon/Class-1/solution28.md)    | 2021-03-15 | Class-1 | `.cpp`, `.js` |
+|   29   |     [고양이(10171)](/baekjoon/Class-1/solution29.md)     | 2021-03-15 | Class-1 | `.cpp`, `.js` |
+|   30   |       [개(10172)](/baekjoon/Class-1/solution30.md)       | 2021-03-15 | Class-1 | `.cpp`, `.js` |
+|   31   |  [알파벳 찾기(10809)](/baekjoon/Class-1/solution31.md)   | 2021-03-15 | Class-1 | `.cpp`, `.js` |
 
 ---
