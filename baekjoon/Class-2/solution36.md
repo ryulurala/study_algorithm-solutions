@@ -1,5 +1,5 @@
 ---
-title: "직각삼각형"
+title: "직각삼각형(4153)"
 category: 백준[Class-2]
 tags: [C++, JavaScript, 백준]
 date: "2021-03-16"
@@ -7,7 +7,7 @@ date: "2021-03-16"
 
 ## 문제 링크
 
-[직각삼각형](https://www.acmicpc.net/problem/4153)
+[직각삼각형(4153)](https://www.acmicpc.net/problem/4153)
 
 ## C++
 
