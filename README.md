@@ -165,6 +165,8 @@ This is storage of algorithm solutions
 |   38   |     [N-Queen](/programmers/level-3/solution132.md)      | 2021-02-24 | Level-3 | `.cpp`, `.js` |
 |   39   |     [셔틀버스](/programmers/level-3/solution133.md)     | 2021-02-27 | Level-3 | `.cpp`, `.js` |
 
+---
+
 ## Baekjoon Solutions
 
 ### Class-1
@@ -202,5 +204,14 @@ This is storage of algorithm solutions
 |   29   |     [고양이(10171)](/baekjoon/Class-1/solution29.md)     | 2021-03-15 | Class-1 | `.cpp`, `.js` |
 |   30   |       [개(10172)](/baekjoon/Class-1/solution30.md)       | 2021-03-15 | Class-1 | `.cpp`, `.js` |
 |   31   |  [알파벳 찾기(10809)](/baekjoon/Class-1/solution31.md)   | 2021-03-15 | Class-1 | `.cpp`, `.js` |
+|   32   | [X보다 작은 수(10871)](/baekjoon/Class-1/solution32.md)  | 2021-03-16 | Class-1 | `.cpp`, `.js` |
+|   33   |  [아스키 코드(11654)](/baekjoon/Class-1/solution33.md)   | 2021-03-16 | Class-1 | `.cpp`, `.js` |
+|   34   |   [숫자의 합(11720)](/baekjoon/Class-1/solution34.md)    | 2021-03-16 | Class-1 | `.cpp`, `.js` |
+
+### Class-2
+
+| Number | Name |    Date    |  Class  |   Language    |
+| :----: | :--: | :--------: | :-----: | :-----------: |
+|   1    | []() | 2021-03-16 | Class-2 | `.cpp`, `.js` |
 
 ---
