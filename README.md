@@ -210,8 +210,10 @@ This is storage of algorithm solutions
 
 ### Class-2
 
-| Number | Name |    Date    |  Class  |   Language    |
-| :----: | :--: | :--------: | :-----: | :-----------: |
-|   1    | []() | 2021-03-16 | Class-2 | `.cpp`, `.js` |
+| Number |                            Name                            |    Date    |  Class  |   Language    |
+| :----: | :--------------------------------------------------------: | :--------: | :-----: | :-----------: |
+|   1    | [직사각형에서 탈출(1085)](/baekjoon/Class-2/solution35.md) | 2021-03-16 | Class-2 | `.cpp`, `.js` |
+|   2    |    [직각삼각형(4153)](/baekjoon/Class-2/solution36.md)     | 2021-03-16 | Class-2 | `.cpp`, `.js` |
+|   3    |     [ACM 호텔(10250)](/baekjoon/Class-2/solution37.md)     | 2021-03-16 | Class-2 | `.cpp`, `.js` |
 
 ---
