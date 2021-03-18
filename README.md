@@ -210,14 +210,20 @@ This is storage of algorithm solutions
 
 ### Class-2
 
-| Number |                            Name                            |    Date    |  Class  |   Language    |
-| :----: | :--------------------------------------------------------: | :--------: | :-----: | :-----------: |
-|   1    | [직사각형에서 탈출(1085)](/baekjoon/Class-2/solution35.md) | 2021-03-16 | Class-2 | `.cpp`, `.js` |
-|   2    |    [직각삼각형(4153)](/baekjoon/Class-2/solution36.md)     | 2021-03-16 | Class-2 | `.cpp`, `.js` |
-|   3    |     [ACM 호텔(10250)](/baekjoon/Class-2/solution37.md)     | 2021-03-16 | Class-2 | `.cpp`, `.js` |
-|   4    |      [블랙잭(2798)](/baekjoon/Class-2/solution38.md)       | 2021-03-17 | Class-2 | `.cpp`, `.js` |
-|   5    |   [이항 계수 1(11050)](/baekjoon/Class-2/solution39.md)    | 2021-03-17 | Class-2 | `.cpp`, `.js` |
-|   6    |    [수 정렬하기(2750)](/baekjoon/Class-2/solution40.md)    | 2021-03-17 | Class-2 | `.cpp`, `.js` |
-|   7    |    [팰린드롬수(1259)](/baekjoon/Class-2/solution41.md)     | 2021-03-18 | Class-2 | `.cpp`, `.js` |
+| Number |                              Name                               |    Date    |  Class  |   Language    |
+| :----: | :-------------------------------------------------------------: | :--------: | :-----: | :-----------: |
+|   1    |   [직사각형에서 탈출(1085)](/baekjoon/Class-2/solution35.md)    | 2021-03-16 | Class-2 | `.cpp`, `.js` |
+|   2    |       [직각삼각형(4153)](/baekjoon/Class-2/solution36.md)       | 2021-03-16 | Class-2 | `.cpp`, `.js` |
+|   3    |       [ACM 호텔(10250)](/baekjoon/Class-2/solution37.md)        | 2021-03-16 | Class-2 | `.cpp`, `.js` |
+|   4    |         [블랙잭(2798)](/baekjoon/Class-2/solution38.md)         | 2021-03-17 | Class-2 | `.cpp`, `.js` |
+|   5    |      [이항 계수 1(11050)](/baekjoon/Class-2/solution39.md)      | 2021-03-17 | Class-2 | `.cpp`, `.js` |
+|   6    |      [수 정렬하기(2750)](/baekjoon/Class-2/solution40.md)       | 2021-03-17 | Class-2 | `.cpp`, `.js` |
+|   7    |       [팰린드롬수(1259)](/baekjoon/Class-2/solution41.md)       | 2021-03-18 | Class-2 | `.cpp`, `.js` |
+|   8    |         [분해합(2231)](/baekjoon/Class-2/solution42.md)         | 2021-03-18 | Class-2 | `.cpp`, `.js` |
+|   9    |          [벌집(2292)](/baekjoon/Class-2/solution43.md)          | 2021-03-18 | Class-2 | `.cpp`, `.js` |
+|   10   |   [부녀회장이 될테야(2775)](/baekjoon/Class-2/solution44.md)    | 2021-03-18 | Class-2 | `.cpp`, `.js` |
+|   11   |        [Hashing(15829)](/baekjoon/Class-2/solution45.md)        | 2021-03-18 | Class-2 | `.cpp`, `.js` |
+|   12   |       [설탕 배달(2839)](/baekjoon/Class-2/solution46.md)        | 2021-03-18 | Class-2 | `.cpp`, `.js` |
+|   13   | [달팽이는 올라가고 싶다(2869)](/baekjoon/Class-2/solution47.md) | 2021-03-18 | Class-2 | `.cpp`, `.js` |
 
 ---
