@@ -230,5 +230,8 @@ This is storage of algorithm solutions
 |   16   |       [영화감독 숌(1436)](/baekjoon/Class-2/solution50.md)       | 2021-03-19 | Class-2 | `.cpp`, `.js` |
 |   17   | [최대공약수와 최소공배수(2609)](/baekjoon/Class-2/solution51.md) | 2021-03-19 | Class-2 | `.cpp`, `.js` |
 |   18   |      [수 정렬하기 2(2751)](/baekjoon/Class-2/solution52.md)      | 2021-03-19 | Class-2 | `.cpp`, `.js` |
+|   19   |          [덩치(7568)](/baekjoon/Class-2/solution53.md)           | 2021-03-20 | Class-2 | `.cpp`, `.js` |
+|   20   |      [나이순 정렬(10814)](/baekjoon/Class-2/solution54.md)       | 2021-03-20 | Class-2 | `.cpp`, `.js` |
+|   21   |         [수 정렬하기 3](/baekjoon/Class-2/solution55.md)         | 2021-03-21 | Class-2 | `.cpp`, `.js` |
 
 ---
