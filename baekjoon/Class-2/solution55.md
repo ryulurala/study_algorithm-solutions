@@ -1,5 +1,5 @@
 ---
-title: "수 정렬하기 3"
+title: "수 정렬하기 3(10989)"
 category: 백준[Class-2]
 tags: [C++, JavaScript, 백준]
 date: "2021-03-21"
@@ -7,7 +7,7 @@ date: "2021-03-21"
 
 ## 문제 링크
 
-[수 정렬하기 3](https://www.acmicpc.net/problem/10989)
+[수 정렬하기 3(10989)](https://www.acmicpc.net/problem/10989)
 
 ## C++
 
