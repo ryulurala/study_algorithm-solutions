@@ -232,6 +232,10 @@ This is storage of algorithm solutions
 |   18   |      [수 정렬하기 2(2751)](/baekjoon/Class-2/solution52.md)      | 2021-03-19 | Class-2 | `.cpp`, `.js` |
 |   19   |          [덩치(7568)](/baekjoon/Class-2/solution53.md)           | 2021-03-20 | Class-2 | `.cpp`, `.js` |
 |   20   |      [나이순 정렬(10814)](/baekjoon/Class-2/solution54.md)       | 2021-03-20 | Class-2 | `.cpp`, `.js` |
-|   21   |         [수 정렬하기 3](/baekjoon/Class-2/solution55.md)         | 2021-03-21 | Class-2 | `.cpp`, `.js` |
+|   21   |     [수 정렬하기 3(10989)](/baekjoon/Class-2/solution55.md)      | 2021-03-21 | Class-2 | `.cpp`, `.js` |
+|   22   |     [좌표 정렬하기(11650)](/baekjoon/Class-2/solution56.md)      | 2021-03-21 | Class-2 | `.cpp`, `.js` |
+|   23   |    [좌표 정렬하기 2(11651)](/baekjoon/Class-2/solution57.md)     | 2021-03-21 | Class-2 | `.cpp`, `.js` |
+|   24   |         [수 찾기(1920)](/baekjoon/Class-2/solution58.md)         | 2021-03-21 | Class-2 | `.cpp`, `.js` |
+|   25   |        [소수 찾기(1978)](/baekjoon/Class-2/solution59.md)        | 2021-03-21 | Class-2 | `.cpp`, `.js` |
 
 ---
