@@ -237,5 +237,9 @@ This is storage of algorithm solutions
 |   23   |    [좌표 정렬하기 2(11651)](/baekjoon/Class-2/solution57.md)     | 2021-03-21 | Class-2 | `.cpp`, `.js` |
 |   24   |         [수 찾기(1920)](/baekjoon/Class-2/solution58.md)         | 2021-03-21 | Class-2 | `.cpp`, `.js` |
 |   25   |        [소수 찾기(1978)](/baekjoon/Class-2/solution59.md)        | 2021-03-21 | Class-2 | `.cpp`, `.js` |
+|   26   |         [통계학(2108)](/baekjoon/Class-2/solution60.md)          | 2021-03-22 | Class-2 | `.cpp`, `.js` |
+|   27   |          [카드2(2164)](/baekjoon/Class-2/solution61.md)          | 2021-03-22 | Class-2 | `.cpp`, `.js` |
+|   28   |      [균형잡힌 세상(4949)](/baekjoon/Class-2/solution62.md)      | 2021-03-22 | Class-2 | `.cpp`, `.js` |
+|   29   |          [괄호(9012)](/baekjoon/Class-2/solution63.md)           | 2021-03-22 | Class-2 | `.cpp`, `.js` |
 
 ---
