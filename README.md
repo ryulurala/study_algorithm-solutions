@@ -242,5 +242,6 @@ This is storage of algorithm solutions
 |   28   |      [균형잡힌 세상(4949)](/baekjoon/Class-2/solution62.md)      | 2021-03-22 | Class-2 | `.cpp`, `.js` |
 |   29   |          [괄호(9012)](/baekjoon/Class-2/solution63.md)           | 2021-03-22 | Class-2 | `.cpp`, `.js` |
 |   30   |          [제로(10773)](/baekjoon/Class-2/solution64.md)          | 2021-03-23 | Class-2 | `.cpp`, `.js` |
+|   31   |      [숫자 카드 2(10816)](/baekjoon/Class-2/solution65.md)       | 2021-03-24 | Class-2 | `.cpp`, `.js` |
 
 ---
