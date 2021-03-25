@@ -243,5 +243,8 @@ This is storage of algorithm solutions
 |   29   |          [괄호(9012)](/baekjoon/Class-2/solution63.md)           | 2021-03-22 | Class-2 | `.cpp`, `.js` |
 |   30   |          [제로(10773)](/baekjoon/Class-2/solution64.md)          | 2021-03-23 | Class-2 | `.cpp`, `.js` |
 |   31   |      [숫자 카드 2(10816)](/baekjoon/Class-2/solution65.md)       | 2021-03-24 | Class-2 | `.cpp`, `.js` |
+|   32   |          [스택(10828)](/baekjoon/Class-2/solution66.md)          | 2021-03-25 | Class-2 | `.cpp`, `.js` |
+|   33   |           [큐(10845)](/baekjoon/Class-2/solution67.md)           | 2021-03-25 | Class-2 | `.cpp`, `.js` |
+|   34   |           [덱(10866)](/baekjoon/Class-2/solution68.md)           | 2021-03-25 | Class-2 | `.cpp`, `.js` |
 
 ---
