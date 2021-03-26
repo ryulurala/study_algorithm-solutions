@@ -246,5 +246,7 @@ This is storage of algorithm solutions
 |   32   |          [스택(10828)](/baekjoon/Class-2/solution66.md)          | 2021-03-25 | Class-2 | `.cpp`, `.js` |
 |   33   |           [큐(10845)](/baekjoon/Class-2/solution67.md)           | 2021-03-25 | Class-2 | `.cpp`, `.js` |
 |   34   |           [덱(10866)](/baekjoon/Class-2/solution68.md)           | 2021-03-25 | Class-2 | `.cpp`, `.js` |
+|   35   |    [요세푸스 문제 0(11866)](/baekjoon/Class-2/solution69.md)     | 2021-03-26 | Class-2 | `.cpp`, `.js` |
+|   36   |       [랜선 자르기(1654)](/baekjoon/Class-2/solution70.md)       | 2021-03-26 | Class-2 | `.cpp`, `.js` |
 
 ---
