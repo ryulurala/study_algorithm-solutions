@@ -248,5 +248,8 @@ This is storage of algorithm solutions
 |   34   |           [덱(10866)](/baekjoon/Class-2/solution68.md)           | 2021-03-25 | Class-2 | `.cpp`, `.js` |
 |   35   |    [요세푸스 문제 0(11866)](/baekjoon/Class-2/solution69.md)     | 2021-03-26 | Class-2 | `.cpp`, `.js` |
 |   36   |       [랜선 자르기(1654)](/baekjoon/Class-2/solution70.md)       | 2021-03-26 | Class-2 | `.cpp`, `.js` |
+|   37   |        [스택 수열(1874)](/baekjoon/Class-2/solution71.md)        | 2021-03-27 | Class-2 | `.cpp`, `.js` |
+|   38   |        [프린터 큐(1966)](/baekjoon/Class-2/solution72.md)        | 2021-03-27 | Class-2 | `.cpp`, `.js` |
+|   39   |       [나무 자르기(2805)](/baekjoon/Class-2/solution73.md)       | 2021-03-27 | Class-2 | `.cpp`, `.js` |
 
 ---
