@@ -251,5 +251,13 @@ This is storage of algorithm solutions
 |   37   |        [스택 수열(1874)](/baekjoon/Class-2/solution71.md)        | 2021-03-27 | Class-2 | `.cpp`, `.js` |
 |   38   |        [프린터 큐(1966)](/baekjoon/Class-2/solution72.md)        | 2021-03-27 | Class-2 | `.cpp`, `.js` |
 |   39   |       [나무 자르기(2805)](/baekjoon/Class-2/solution73.md)       | 2021-03-27 | Class-2 | `.cpp`, `.js` |
+|   40   |       [소수 구하기(1929)](/baekjoon/Class-2/solution74.md)       | 2021-03-30 | Class-2 | `.cpp`, `.js` |
+|   41   |      [마인크래프트(18111)](/baekjoon/Class-2/solution75.md)      | 2021-03-30 | Class-2 | `.cpp`, `.js` |
+
+### Class-3
+
+| Number | Name | Date | Class | Language |
+| :----: | :--: | :--: | :---: | :------: |
+|        |      |      |       |          |
 
 ---
