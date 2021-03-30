@@ -256,8 +256,8 @@ This is storage of algorithm solutions
 
 ### Class-3
 
-| Number | Name | Date | Class | Language |
-| :----: | :--: | :--: | :---: | :------: |
-|        |      |      |       |          |
+| Number |                      Name                      |    Date    |  Class  |   Language    |
+| :----: | :--------------------------------------------: | :--------: | :-----: | :-----------: |
+|   1    | [집합(11723)](/baekjoon/Class-3/solution76.md) | 2021-03-30 | Class-3 | `.cpp`, `.js` |
 
 ---
