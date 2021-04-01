@@ -261,5 +261,8 @@ This is storage of algorithm solutions
 |   1    |            [집합(11723)](/baekjoon/Class-3/solution76.md)            | 2021-03-30 | Class-3 | `.cpp`, `.js` |
 |   2    |        [Four Squares(17626)](/baekjoon/Class-3/solution77.md)        | 2021-03-31 | Class-3 | `.cpp`, `.js` |
 |   3    | [나는야 포켓몬 마스터 이다솜(1620)](/baekjoon/Class-3/solution78.md) | 2021-03-31 | Class-3 | `.cpp`, `.js` |
+|   4    |           [듣보잡(1764)](/baekjoon/Class-3/solution79.md)            | 2021-04-01 | Class-3 | `.cpp`, `.js` |
+|   5    |       [비밀번호 찾기(17219)](/baekjoon/Class-3/solution80.md)        | 2021-04-01 | Class-3 | `.cpp`, `.js` |
+|   6    |        [피보나치 함수(1003)](/baekjoon/Class-3/solution81.md)        | 2021-04-01 | Class-3 | `.cpp`, `.js` |
 
 ---
