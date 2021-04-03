@@ -120,6 +120,7 @@ This is storage of algorithm solutions
 |   48   |          [압축](/programmers/level-2/solution93.md)           | 2021-02-03 | Level-2 | `.cpp`, `.js` |
 |   49   |       [파일명 정렬](/programmers/level-2/solution94.md)       | 2021-02-03 | Level-2 | `.cpp`, `.js` |
 |   50   |       [n진수 게임](/programmers/level-2/solution95.md)        | 2021-02-03 | Level-2 | `.cpp`, `.js` |
+|   51   |    [게임 맵 최단거리](/programmers/level-2/solution134.md)    | 2021-04-03 | Level-2 | `.cpp`, `.js` |
 
 ### Level-3
 
