@@ -164,7 +164,7 @@ const combination = (arr, selectNum) => {
       const fixed = value;
       const restArr = arr.slice(idx + 1); // 다시 선택할 필요 X
       const combinationArr = combination(restArr, selectNum - 1);
-      const mergeArr = permutationArr.map((v) => [fixed, ...v]);
+      const mergeArr = combinationArr.map((v) => [fixed, ...v]);
       result.push(...mergeArr);
     });
     return result;
