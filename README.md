@@ -268,5 +268,8 @@ This is storage of algorithm solutions
 |   7    |         [1로 만들기(1463)](/baekjoon/Class-3/solution82.md)          | 2021-04-05 | Class-3 | `.cpp`, `.js` |
 |   8    |      [팩토리얼 0의 개수(1676)](/baekjoon/Class-3/solution83.md)      | 2021-04-06 | Class-3 | `.cpp`, `.js` |
 |   9    |         [계단 오르기(2579)](/baekjoon/Class-3/solution84.md)         | 2021-04-07 | Class-3 | `.cpp`, `.js` |
+|   10   |          [바이러스(2606)](/baekjoon/Class-3/solution85.md)           | 2021-04-08 | Class-3 | `.cpp`, `.js` |
+|   11   |        [색종이 만들기(2630)](/baekjoon/Class-3/solution86.md)        | 2021-04-08 | Class-3 | `.cpp`, `.js` |
+|   12   |       [1, 2, 3 더하기(9095)](/baekjoon/Class-3/solution87.md)        | 2021-04-08 | Class-3 | `.cpp`, `.js` |
 
 ---
