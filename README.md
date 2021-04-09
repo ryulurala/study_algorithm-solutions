@@ -271,5 +271,6 @@ This is storage of algorithm solutions
 |   10   |          [바이러스(2606)](/baekjoon/Class-3/solution85.md)           | 2021-04-08 | Class-3 | `.cpp`, `.js` |
 |   11   |        [색종이 만들기(2630)](/baekjoon/Class-3/solution86.md)        | 2021-04-08 | Class-3 | `.cpp`, `.js` |
 |   12   |       [1, 2, 3 더하기(9095)](/baekjoon/Class-3/solution87.md)        | 2021-04-08 | Class-3 | `.cpp`, `.js` |
+|   13   |        [패션왕 신해빈(9375)](/baekjoon/Class-3/solution88.md)        | 2021-04-09 | Class-3 | `.cpp`, `.js` |
 
 ---
