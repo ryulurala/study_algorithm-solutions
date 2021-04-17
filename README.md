@@ -65,6 +65,7 @@ This is storage of algorithm solutions
 |   42   |          [다트 게임](/programmers/level-1/solution42.md)           | 2021-01-21 | Level-1 | `.cpp`, `.js` |
 |   43   |            [실패율](/programmers/level-1/solution43.md)            | 2021-01-21 | Level-1 | `.cpp`, `.js` |
 |   44   |      [신규 아이디 추천](/programmers/level-1/solution108.md)       | 2021-02-06 | Level-1 | `.cpp`, `.js` |
+|   45   |         [음양 더하기](/programmers/level-1/solution135.md)         | 2021-04-17 | Level-1 | `.cpp`, `.js` |
 
 ### Level-2
 
@@ -121,6 +122,7 @@ This is storage of algorithm solutions
 |   49   |       [파일명 정렬](/programmers/level-2/solution94.md)       | 2021-02-03 | Level-2 | `.cpp`, `.js` |
 |   50   |       [n진수 게임](/programmers/level-2/solution95.md)        | 2021-02-03 | Level-2 | `.cpp`, `.js` |
 |   51   |    [게임 맵 최단거리](/programmers/level-2/solution134.md)    | 2021-04-03 | Level-2 | `.cpp`, `.js` |
+|   52   |     [괄호 회전하기](/programmers/level-2/solution136.md)      | 2021-04-17 | Level-2 | `.cpp`, `.js` |
 
 ### Level-3
 
