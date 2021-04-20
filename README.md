@@ -278,5 +278,6 @@ This is storage of algorithm solutions
 |   15   |      [구간 합 구하기 4(11659)](/baekjoon/Class-3/solution90.md)      | 2021-04-14 | Class-3 | `.cpp`, `.js` |
 |   16   |         [2×n 타일링(11726)](/baekjoon/Class-3/solution91.md)         | 2021-04-17 | Class-3 | `.cpp`, `.js` |
 |   17   |        [2×n 타일링 2(11727)](/baekjoon/Class-3/solution92.md)        | 2021-04-17 | Class-3 | `.cpp`, `.js` |
+|   18   |            [파도반 수열](/baekjoon/Class-3/solution93.md)            | 2021-04-20 | Class-3 | `.cpp`, `.js` |
 
 ---
