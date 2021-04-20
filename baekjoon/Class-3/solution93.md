@@ -1,5 +1,5 @@
 ---
-title: "파도반 수열"
+title: "파도반 수열(9461)"
 category: 백준[Class-3]
 tags: [C++, JavaScript, 백준]
 date: "2021-04-20"
@@ -7,7 +7,7 @@ date: "2021-04-20"
 
 ## 문제 링크
 
-[파도반 수열](https://www.acmicpc.net/problem/9461)
+[파도반 수열(9461)](https://www.acmicpc.net/problem/9461)
 
 ## C++
 
