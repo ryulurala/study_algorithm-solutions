@@ -97,7 +97,7 @@ ss >> temperature;    // 36.5, float형
 string str2="hi, bye, 2021, 36.5";  // ',' split
 // stringstream ss(str2); 아래 두 줄과 같음
 stringstream ss2;
-ss.str(str2);
+ss2.str(str2);
 string str;
 int k=0;
 while(getline(ss2, str, ',')){    // line을 읽어서 ',' split
