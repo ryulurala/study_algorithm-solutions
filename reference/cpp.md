@@ -683,9 +683,9 @@ int bfsByQueue(Node root) // ex) 연결된 개수 리턴하는 BFS
 - `<map>` 컨테이너 이용
 
 ```cpp
-map<int> root; // 각 root
-map<int> rank; // 트리의 높이를 저장
-map<int> nodeCount;
+map<int, int> root; // 각 root
+map<int, int> rank; // 트리의 높이를 저장
+map<int, int> nodeCount;
 
 for(int i=0; i<root.size(); i++){
   root[i]=i; // root를 자신으로 초기화
