@@ -282,4 +282,16 @@ This is storage of algorithm solutions
 |   19   |         [유기농 배추(1012)](/baekjoon/Class-3/solution94.md)         | 2021-05-16 | Class-3 | `.cpp`, `.js` |
 |   20   |          [DFS와 BFS(1260)](/baekjoon/Class-3/solution95.md)          | 2021-05-17 | Class-3 | `.cpp`, `.js` |
 
+### Class-4
+
+| Number |                       Name                        |    Date    |  Class  |   Language    |
+| :----: | :-----------------------------------------------: | :--------: | :-----: | :-----------: |
+|   1    | [최단경로(1753)](/baekjoon/Class-4/solution97.md) | 2021-05-19 | Class-4 | `.cpp`, `.js` |
+
+### Class-5
+
+| Number |                          Name                           |    Date    |  Class  |   Language    |
+| :----: | :-----------------------------------------------------: | :--------: | :-----: | :-----------: |
+|   1    | [도시 분할 계획(1647)](/baekjoon/Class-5/solution96.md) | 2021-05-18 | Class-5 | `.cpp`, `.js` |
+
 ---
