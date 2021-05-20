@@ -281,6 +281,11 @@ This is storage of algorithm solutions
 |   18   |         [파도반 수열(9461)](/baekjoon/Class-3/solution93.md)         | 2021-04-20 | Class-3 | `.cpp`, `.js` |
 |   19   |         [유기농 배추(1012)](/baekjoon/Class-3/solution94.md)         | 2021-05-16 | Class-3 | `.cpp`, `.js` |
 |   20   |          [DFS와 BFS(1260)](/baekjoon/Class-3/solution95.md)          | 2021-05-17 | Class-3 | `.cpp`, `.js` |
+|   21   |        [잃어버린 괄호(1541)](/baekjoon/Class-3/solution98.md)        | 2021-05-19 | Class-3 | `.cpp`, `.js` |
+|   22   |         [종이의 개수(1780)](/baekjoon/Class-3/solution99.md)         | 2021-05-20 | Class-3 | `.cpp`, `.js` |
+|   23   |        [회의실 배정(1931)](/baekjoon/Class-3/solution100.md)         | 2021-05-20 | Class-3 | `.cpp`, `.js` |
+|   24   |           [IOIOI(5525)](/baekjoon/Class-3/solution101.md)            | 2021-05-20 | Class-3 | `.cpp`, `.js` |
+|   25   |          [동전 0(11047)](/baekjoon/Class-3/solution102.md)           | 2021-05-20 | Class-3 | `.cpp`, `.js` |
 
 ### Class-4
 
@@ -293,5 +298,11 @@ This is storage of algorithm solutions
 | Number |                          Name                           |    Date    |  Class  |   Language    |
 | :----: | :-----------------------------------------------------: | :--------: | :-----: | :-----------: |
 |   1    | [도시 분할 계획(1647)](/baekjoon/Class-5/solution96.md) | 2021-05-18 | Class-5 | `.cpp`, `.js` |
+
+### Class-6
+
+| Number |                      Name                      |    Date    |  Class  |   Language    |
+| :----: | :--------------------------------------------: | :--------: | :-----: | :-----------: |
+|   1    | [찾기(1786)](/baekjoon/Class-6/solution102.md) | 2021-05-20 | Class-6 | `.cpp`, `.js` |
 
 ---
