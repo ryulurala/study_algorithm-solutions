@@ -288,6 +288,7 @@ This is storage of algorithm solutions
 |   25   |          [동전 0(11047)](/baekjoon/Class-3/solution103.md)           | 2021-05-20 | Class-3 | `.cpp`, `.js` |
 |   26   |          [최대 힙(11279)](/baekjoon/Class-3/solution104.md)          | 2021-05-21 | Class-3 | `.cpp`, `.js` |
 |   27   |     [연결 요소의 개수(11724)](/baekjoon/Class-3/solution105.md)      | 2021-05-21 | Class-3 | `.cpp`, `.js` |
+|   28   |          [최소 힙(1927)](/baekjoon/Class-3/solution106.md)           | 2021-05-21 | Class-3 | `.cpp`, `.js` |
 
 ### Class-4
 
