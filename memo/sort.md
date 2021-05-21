@@ -167,3 +167,82 @@ toc: true
   ```
 
 ---
+
+### 퀵 정렬: Quick Sort
+
+- 시간복잡도
+
+  - 평균: `O(N * log(N))`
+  - 최악: `O(N ^ 2)`
+
+- 알고리즘
+
+  1. 비균등 분할(pivot보다 작은 집합, pivot보다 큰 집합)
+  2. Swap:
+     - left와 right 커서가 엇갈릴 경우 큰 값과 pivot 값을 바꿈.
+     - 그 외에는 큰 값과 작은 값을 바꿈.
+  3. pivot보다 작은 집합, pivot보다 큰 집합에 대해서 재귀적 Quick_sort 실행
+
+- 소스코드
+
+  ```cpp
+  #include <iostream>
+  #include <vector>
+
+  using namespace std;
+
+  void swap(int& a, int& b){
+      int temp = a;
+      a = b;
+      b = temp;
+  }
+
+  void quick_sort(vector<int>& data, int start, int end){
+      // 오름차순
+      if(start >= end)    // 원소가 1개
+          return;
+
+      int pivot = start;  // pivot을 첫 번째 원소로
+      int left = start + 1;
+      int right = end;
+
+      while(left <= right){
+          // 엇갈릴 때까지 반복
+          while(data[left] <= data[pivot]){
+              // 피벗 값보다 큰 값을 만날 때까지
+              left++;
+          }
+
+          while(data[right] >= data[pivot] && right > start){
+              // 피벗 값보다 작은 값을 만날 때까지
+              right--;
+          }
+
+          if(left > right){
+              // 엇갈릴 경우, 큰 값과 pivot을 바꿈
+              swap(data[right], data[pivot]);
+          }
+          else {
+              // 엇갈릴 경우, 큰 값과 작은 값을 바꿈
+              swap(data[right], data[left]);
+          }
+      }
+
+      // recursive, 반으로 나눠서 재실행
+      quick_sort(data, start, right-1);
+      quick_sort(data, right+1, end);
+  }
+
+  int main(){
+      vector<int> test({3, 4, 1, 2, 9, 5, 7, 6, 8, 10});
+
+      quick_sort(test, 0, test.size()-1);
+
+      for(int e: test){
+          // 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+          cout<<e<<"\n";
+      }
+  }
+  ```
+
+---
