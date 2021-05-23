@@ -16,7 +16,6 @@ toc: true
   - |               오름차순               |              내림차순              |
     | :----------------------------------: | :--------------------------------: |
     | 가장 작은 값을 `선택`해 앞으로 당김. | 가장 큰 값을 `선택`해 앞으로 당김. |
-    >
 
 - 소스코드
 
@@ -177,11 +176,23 @@ toc: true
 
 - 알고리즘
 
-  1. 비균등 분할(pivot보다 작은 집합, pivot보다 큰 집합)
-  2. Swap:
-     - left와 right 커서가 엇갈릴 경우 큰 값과 pivot 값을 바꿈.
-     - 그 외에는 큰 값과 작은 값을 바꿈.
-  3. pivot보다 작은 집합, pivot보다 큰 집합에 대해서 재귀적 Quick_sort 실행
+  1. quick_sort()
+
+     - partition()
+     - quick_sort() 재호출
+
+       - pivot보다 작은 집합에 대해
+       - pivot보다 큰 집합에 대해
+
+  2. partition()
+
+     - 비균등 분할(pivot보다 작은 집합, pivot보다 큰 집합)
+
+     1. left cursor를 피벗 값보다 큰 값을 만날 때까지 반복하며 설정
+     2. right cursor를 피벗 값보다 작은 값을 만날 때까지 반복하며 설정
+     3. 만약
+        - left cursor > right cursor, right cursor의 값과 pivot 값을 swap()
+        - left cursor <= right cursor, right cursor의 값과 left cursor의 값을 swap()
 
 - 소스코드
 
@@ -197,40 +208,37 @@ toc: true
       b = temp;
   }
 
-  void quick_sort(vector<int>& data, int start, int end){
-      // 오름차순
-      if(start >= end)    // 원소가 1개
-          return;
-
-      int pivot = start;  // pivot을 첫 번째 원소로
-      int left = start + 1;
+  int partition(vector<int>& data, int start, int end){
+      int pivot = start;
+      int left = start+1;
       int right = end;
 
       while(left <= right){
-          // 엇갈릴 때까지 반복
-          while(data[left] <= data[pivot]){
-              // 피벗 값보다 큰 값을 만날 때까지
-              left++;
-          }
+          // left cursor 이동: pivot의 값보다 클 때까지
+          while(left<=end && data[left]<data[pivot]) left++;
+          // right cursor 이동: pivot의 값보다 작을 때까지
+          while(right>=start && data[right]>data[pivot]) right--;
 
-          while(data[right] >= data[pivot] && right > start){
-              // 피벗 값보다 작은 값을 만날 때까지
-              right--;
-          }
-
-          if(left > right){
-              // 엇갈릴 경우, 큰 값과 pivot을 바꿈
-              swap(data[right], data[pivot]);
-          }
-          else {
-              // 엇갈릴 경우, 큰 값과 작은 값을 바꿈
-              swap(data[right], data[left]);
+          if(left < right){
+              swap(data[left], data[right]);
+          } else {
+              swap(data[pivot], data[right]);
+              pivot = right;
           }
       }
 
-      // recursive, 반으로 나눠서 재실행
-      quick_sort(data, start, right-1);
-      quick_sort(data, right+1, end);
+      return pivot;
+  }
+
+  void quick_sort(vector<int>& data, int start, int end){
+      if(start >= end)    // 원소가 1개
+          return;
+
+      int pivot = partition(data, start, end);
+
+      // pivot 기준으로 나누어 recursive
+      quick_sort(data, start, pivot-1);
+      quick_sort(data, pivot+1, end);
   }
 
   int main(){
@@ -240,8 +248,9 @@ toc: true
 
       for(int e: test){
           // 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
-          cout<<e<<"\n";
+          cout<<e<<" ";
       }
+      cout<<"\n";
   }
   ```
 
