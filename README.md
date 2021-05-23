@@ -291,6 +291,8 @@ This is storage of algorithm solutions
 |   28   |          [최소 힙(1927)](/baekjoon/Class-3/solution106.md)           | 2021-05-21 | Class-3 | `.cpp`, `.js` |
 |   29   |         [좌표 압축(18870)](/baekjoon/Class-3/solution107.md)         | 2021-05-22 | Class-3 | `.cpp`, `.js` |
 |   30   |             [Z(1074)](/baekjoon/Class-3/solution108.md)              | 2021-05-23 | Class-3 | `.cpp`, `.js` |
+|   31   |          [숨바꼭질(1697)](/baekjoon/Class-3/solution109.md)          | 2021-05-23 | Class-3 | `.cpp`, `.js` |
+|   32   |           [토마토(7576)](/baekjoon/Class-3/solution110.md)           | 2021-05-23 | Class-3 | `.cpp`, `.js` |
 
 ### Class-4
 
