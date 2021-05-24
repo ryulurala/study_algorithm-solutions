@@ -255,3 +255,80 @@ toc: true
   ```
 
 ---
+
+### 병합 정렬: Merge Sort
+
+- 시간 복잡도: `O(N * logN)`
+
+- 알고리즘
+
+  1. merge_sort()
+     - 균등 분할로 가운데를 기준으로 양쪽으로 나눈다.
+     - merge()
+  2. merge()
+     - 작은 순서대로 배열에 삽입
+       > 이미 정렬된 배열로 삽입하므로 O(N)의 시간복잡도를 가짐
+
+- 소스코드
+
+  ```cpp
+  #include <iostream>
+  #include <vector>
+
+  using namespace std;
+
+  void merge(vector<int>& arr, int start, int middle, int end){
+      vector<int> sorted(arr.size());  // 정렬된 임시 배열
+      int left = start;
+      int right = middle+1;
+      int cursor = start;
+
+      // 작은 순서대로 배열에 삽입
+      while(left <= middle && right<= end){
+          if(arr[left] <= arr[right]) {
+              sorted[cursor++] = arr[left++];
+          }
+          else {
+              sorted[cursor++] = arr[right++];
+          }
+      }
+
+      // 남은 데이터 삽입
+      while(right<=end){
+          sorted[cursor++] = arr[right++];
+      }
+      while(left<=middle){
+          sorted[cursor++] = arr[left++];
+      }
+
+      // 정렬된 배열 삽입
+      for(int i=start; i<=end; i++){
+          arr[i] = sorted[i];
+      }
+  }
+
+  void merge_sort(vector<int>& arr, int start, int end){
+      if(start < end){
+          int middle = (start+end)/2;
+          merge_sort(arr, start, middle);
+          merge_sort(arr, middle+1, end);
+
+          merge(arr, start, middle, end);
+      }
+  }
+
+  int main(){
+      vector<int> test({3, 4, 1, 2, 9, 5, 7, 6, 8, 10});
+
+      // 오름차순 정렬
+      merge_sort(test, 0, test.size()-1);
+
+      for(int e: test){
+          // 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+          cout<<e<<" ";
+      }
+      cout<<"\n";
+  }
+  ```
+
+---
