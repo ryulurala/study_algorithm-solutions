@@ -258,7 +258,7 @@ toc: true
 
 ### 병합 정렬: Merge Sort
 
-- 시간 복잡도: `O(N * logN)`
+- 시간복잡도: `O(N * logN)`
 
 - 알고리즘
 
@@ -322,6 +322,103 @@ toc: true
 
       // 오름차순 정렬
       merge_sort(test, 0, test.size()-1);
+
+      for(int e: test){
+          // 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+          cout<<e<<" ";
+      }
+      cout<<"\n";
+  }
+  ```
+
+---
+
+### 힙 정렬: Heap Sort
+
+- 시간복잡도: `O(N * logN)`
+
+- 알고리즘
+
+  - heap_sort()
+
+    1. build()
+       - 배열 -> 힙
+    2. Swap(), Heapify()
+       - 0의 위치와 end 위치를 swap()
+       - (0 ~ end-1) 에 대해 heapify()
+
+  - build()
+
+    - 크기의 1/2 부터 1씩 줄여가며 heapify() 실행
+
+  - heapify()
+    - 자식들중 부모의 값보다 클 경우(max-heap 예시) swap()
+
+- 소스코드
+
+  ```cpp
+  #include <iostream>
+  #include <vector>
+
+  using namespace std;
+
+  void swap(int& a, int& b){
+      int temp = a;
+      a = b;
+      b = temp;
+  }
+
+  void heapify(vector<int>& arr, int here, int end){
+      int biggerIndex = here;
+
+      int left = here*2 + 1;
+      int right = here*2 + 2;
+
+      // 자식들중 here의 값보다 큰 index 추출
+      if(left<=end && arr[left]>arr[biggerIndex]){
+          biggerIndex = left;
+      }
+      if(right<=end && arr[right]>arr[biggerIndex]){
+          biggerIndex = right;
+      }
+
+      // maxIndex가 here가 아닐 경우, swap -> heapify
+      if(biggerIndex != here){
+          swap(arr[biggerIndex], arr[here]);
+          heapify(arr, biggerIndex, end);
+      }
+  }
+
+  void build(vector<int>& arr){
+      // 1/2 크기만으로도 heap 빌드 가능
+      int here = (arr.size()-1)/2;
+      while(here >= 0){
+          heapify(arr, here, arr.size()-1);
+          here--;
+      }
+  }
+
+  void heap_sort(vector<int>& arr){
+      // 힙 생성
+      build(arr);
+
+      int end = arr.size()-1;
+      while(end >= 0){
+          // index 0의 위치와 end 위치 swap
+          swap(arr[0], arr[end]);
+
+          // 0 ~ end-1 까지 heapify
+          heapify(arr, 0, end-1);
+
+          end--;
+      }
+  }
+
+  int main(){
+      vector<int> test({3, 4, 1, 2, 9, 5, 7, 6, 8, 10});
+
+      // 오름차순 정렬
+      heap_sort(test);
 
       for(int e: test){
           // 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
