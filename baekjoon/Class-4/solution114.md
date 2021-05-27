@@ -1,5 +1,5 @@
 ---
-title: "N과 M (5)"
+title: "N과 M (5)(15654)"
 category: 백준[Class-4]
 tags: [C++, JavaScript, 백준]
 date: "2021-05-27"
