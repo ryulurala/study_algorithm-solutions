@@ -298,9 +298,12 @@ This is storage of algorithm solutions
 
 ### Class-4
 
-| Number |                       Name                        |    Date    |  Class  |   Language    |
-| :----: | :-----------------------------------------------: | :--------: | :-----: | :-----------: |
-|   1    | [최단경로(1753)](/baekjoon/Class-4/solution97.md) | 2021-05-19 | Class-4 | `.cpp`, `.js` |
+| Number |                         Name                         |    Date    |  Class  |   Language    |
+| :----: | :--------------------------------------------------: | :--------: | :-----: | :-----------: |
+|   1    |  [최단경로(1753)](/baekjoon/Class-4/solution97.md)   | 2021-05-19 | Class-4 | `.cpp`, `.js` |
+|   2    | [N과 M (2)(15650)](/baekjoon/Class-4/solution113.md) | 2021-05-27 | Class-4 | `.cpp`, `.js` |
+|   3    |    [N과 M (5)](/baekjoon/Class-4/solution114.md)     | 2021-05-27 | Class-4 | `.cpp`, `.js` |
+|   4    |    [조합(2407)](/baekjoon/Class-4/solution115.md)    | 2021-05-27 | Class-4 | `.cpp`, `.js` |
 
 ### Class-5
 
