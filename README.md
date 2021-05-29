@@ -304,6 +304,7 @@ This is storage of algorithm solutions
 |   2    | [N과 M (2)(15650)](/baekjoon/Class-4/solution113.md) | 2021-05-27 | Class-4 | `.cpp`, `.js` |
 |   3    |    [N과 M (5)](/baekjoon/Class-4/solution114.md)     | 2021-05-27 | Class-4 | `.cpp`, `.js` |
 |   4    |    [조합(2407)](/baekjoon/Class-4/solution115.md)    | 2021-05-27 | Class-4 | `.cpp`, `.js` |
+|   5    |   [스티커(9465)](/baekjoon/Class-4/solution116.md)   | 2021-05-29 | Class-4 | `.cpp`, `.js` |
 
 ### Class-5
 
