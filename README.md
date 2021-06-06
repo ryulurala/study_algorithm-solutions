@@ -307,6 +307,7 @@ This is storage of algorithm solutions
 |   5    |           [스티커(9465)](/baekjoon/Class-4/solution116.md)            | 2021-05-29 | Class-4 | `.cpp`, `.js` |
 |   6    | [가장 긴 증가하는 부분 수열(11053)](/baekjoon/Class-4/solution117.md) | 2021-05-31 | Class-4 | `.cpp`, `.js` |
 |   7    |      [트리의 부모 찾기(11725)](/baekjoon/Class-4/solution118.md)      | 2021-05-31 | Class-4 | `.cpp`, `.js` |
+|   8    |           [RGB거리(1149)](/baekjoon/Class-4/solution119.md)           | 2021-06-06 | Class-4 | `.cpp`, `.js` |
 
 ### Class-5
 
