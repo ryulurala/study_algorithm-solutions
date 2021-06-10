@@ -66,6 +66,7 @@ This is storage of algorithm solutions
 |   43   |            [실패율](/programmers/level-1/solution43.md)            | 2021-01-21 | Level-1 | `.cpp`, `.js` |
 |   44   |      [신규 아이디 추천](/programmers/level-1/solution108.md)       | 2021-02-06 | Level-1 | `.cpp`, `.js` |
 |   45   |         [음양 더하기](/programmers/level-1/solution135.md)         | 2021-04-17 | Level-1 | `.cpp`, `.js` |
+|   46   |     [약수의 개수와 덧셈](/programmers/level-1/solution136.md)      | 2021-06-11 | Level-1 | `.cpp`, `.js` |
 
 ### Level-2
 
