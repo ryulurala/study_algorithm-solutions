@@ -19,54 +19,55 @@ This is storage of algorithm solutions
 
 ### Level-1
 
-| Number |                                Name                                |    Date    |  Level  |   Language    |
-| :----: | :----------------------------------------------------------------: | :--------: | :-----: | :-----------: |
-|   1    |        [크레인 인형뽑기](/programmers/level-1/solution1.md)        | 2021-01-17 | Level-1 | `.cpp`, `.js` |
-|   2    |      [두 개 뽑아서 더하기](/programmers/level-1/solution2.md)      | 2021-01-18 | Level-1 | `.cpp`, `.js` |
-|   3    |      [완주하지 못한 선수](/programmers/level-1/solution3.md)       | 2021-01-18 | Level-1 | `.cpp`, `.js` |
-|   4    |           [모의고사](/programmers/level-1/solution4.md)            | 2021-01-18 | Level-1 | `.cpp`, `.js` |
-|   5    |            [체육복](/programmers/level-1/solution5.md)             | 2021-01-18 | Level-1 | `.cpp`, `.js` |
-|   6    |            [K번째수](/programmers/level-1/solution6.md)            | 2021-01-19 | Level-1 | `.cpp`, `.js` |
-|   7    |            [2016년](/programmers/level-1/solution7.md)             | 2021-01-19 | Level-1 | `.cpp`, `.js` |
-|   8    |         [3진법 뒤집기](/programmers/level-1/solution8.md)          | 2021-01-19 | Level-1 | `.cpp`, `.js` |
-|   9    |     [가운데 글자 가져오기](/programmers/level-1/solution9.md)      | 2021-01-19 | Level-1 | `.cpp`, `.js` |
-|   10   |  [나누어 떨어지는 숫자 배열](/programmers/level-1/solution10.md)   | 2021-01-19 | Level-1 | `.cpp`, `.js` |
-|   11   |       [같은 숫자는 싫어](/programmers/level-1/solution11.md)       | 2021-01-19 | Level-1 | `.cpp`, `.js` |
-|   12   |      [두 정수 사이의 합](/programmers/level-1/solution12.md)       | 2021-01-19 | Level-1 | `.cpp`, `.js` |
-|   13   | [문자열 내 마음대로 정렬하기](/programmers/level-1/solution13.md)  | 2021-01-19 | Level-1 | `.cpp`, `.js` |
-|   14   |    [문자열 내 p와 y의 개수](/programmers/level-1/solution14.md)    | 2021-01-19 | Level-1 | `.cpp`, `.js` |
-|   15   | [문자열 내림차순으로 배치하기](/programmers/level-1/solution15.md) | 2021-01-19 | Level-1 | `.cpp`, `.js` |
-|   16   |      [문자열 다루기 기본](/programmers/level-1/solution16.md)      | 2021-01-20 | Level-1 | `.cpp`, `.js` |
-|   17   |     [서울에서 김서방 찾기](/programmers/level-1/solution17.md)     | 2021-01-20 | Level-1 | `.cpp`, `.js` |
-|   18   |          [소수 찾기](/programmers/level-1/solution18.md)           | 2021-01-20 | Level-1 | `.cpp`, `.js` |
-|   19   |    [문자열을 정수로 바꾸기](/programmers/level-1/solution19.md)    | 2021-01-20 | Level-1 | `.cpp`, `.js` |
-|   20   |   [수박수박수박수박수박수?](/programmers/level-1/solution20.md)    | 2021-01-20 | Level-1 | `.cpp`, `.js` |
-|   21   |             [내적](/programmers/level-1/solution21.md)             | 2021-01-20 | Level-1 | `.cpp`, `.js` |
-|   22   |          [시저 암호](/programmers/level-1/solution22.md)           | 2021-01-20 | Level-1 | `.cpp`, `.js` |
-|   23   |          [약수의 합](/programmers/level-1/solution23.md)           | 2021-01-20 | Level-1 | `.cpp`, `.js` |
-|   24   |      [이상한 문자 만들기](/programmers/level-1/solution24.md)      | 2021-01-20 | Level-1 | `.cpp`, `.js` |
-|   25   |        [자릿수 더하기](/programmers/level-1/solution25.md)         | 2021-01-20 | Level-1 | `.cpp`, `.js` |
-|   26   | [자연수 뒤집어 배열로 만들기](/programmers/level-1/solution26.md)  | 2021-01-20 | Level-1 | `.cpp`, `.js` |
-|   27   |  [정수 내림차순으로 배치하기](/programmers/level-1/solution27.md)  | 2021-01-20 | Level-1 | `.cpp`, `.js` |
-|   28   |       [정수 제곱근 판별](/programmers/level-1/solution28.md)       | 2021-01-20 | Level-1 | `.cpp`, `.js` |
-|   29   |    [제일 작은 수 제거하기](/programmers/level-1/solution29.md)     | 2021-01-20 | Level-1 | `.cpp`, `.js` |
-|   30   |         [짝수와 홀수](/programmers/level-1/solution30.md)          | 2021-01-20 | Level-1 | `.cpp`, `.js` |
-|   31   |        [키패드 누르기](/programmers/level-1/solution31.md)         | 2021-01-20 | Level-1 | `.cpp`, `.js` |
-|   32   |   [최대공약수와 최소공배수](/programmers/level-1/solution32.md)    | 2021-01-20 | Level-1 | `.cpp`, `.js` |
-|   33   |         [콜라츠 추측](/programmers/level-1/solution33.md)          | 2021-01-20 | Level-1 | `.cpp`, `.js` |
-|   34   |         [평균 구하기](/programmers/level-1/solution34.md)          | 2021-01-20 | Level-1 | `.cpp`, `.js` |
-|   35   |          [하샤드 수](/programmers/level-1/solution35.md)           | 2021-01-20 | Level-1 | `.cpp`, `.js` |
-|   36   |      [핸드폰 번호 가리기](/programmers/level-1/solution36.md)      | 2021-01-20 | Level-1 | `.cpp`, `.js` |
-|   37   |         [행렬의 덧셈](/programmers/level-1/solution37.md)          | 2021-01-20 | Level-1 | `.cpp`, `.js` |
-|   38   | [x만큼 간격이 있는 n개의 숫자](/programmers/level-1/solution38.md) | 2021-01-21 | Level-1 | `.cpp`, `.js` |
-|   39   |       [직사각형 별찍기](/programmers/level-1/solution39.md)        | 2021-01-21 | Level-1 | `.cpp`, `.js` |
-|   40   |             [예산](/programmers/level-1/solution40.md)             | 2021-01-21 | Level-1 | `.cpp`, `.js` |
-|   41   |           [비밀지도](/programmers/level-1/solution41.md)           | 2021-01-21 | Level-1 | `.cpp`, `.js` |
-|   42   |          [다트 게임](/programmers/level-1/solution42.md)           | 2021-01-21 | Level-1 | `.cpp`, `.js` |
-|   43   |            [실패율](/programmers/level-1/solution43.md)            | 2021-01-21 | Level-1 | `.cpp`, `.js` |
-|   44   |      [신규 아이디 추천](/programmers/level-1/solution108.md)       | 2021-02-06 | Level-1 | `.cpp`, `.js` |
-|   45   |         [음양 더하기](/programmers/level-1/solution135.md)         | 2021-04-17 | Level-1 | `.cpp`, `.js` |
-|   46   |     [약수의 개수와 덧셈](/programmers/level-1/solution136.md)      | 2021-06-11 | Level-1 | `.cpp`, `.js` |
+| Number |                                Name                                 |    Date    |  Level  |   Language    |
+| :----: | :-----------------------------------------------------------------: | :--------: | :-----: | :-----------: |
+|   1    |        [크레인 인형뽑기](/programmers/level-1/solution1.md)         | 2021-01-17 | Level-1 | `.cpp`, `.js` |
+|   2    |      [두 개 뽑아서 더하기](/programmers/level-1/solution2.md)       | 2021-01-18 | Level-1 | `.cpp`, `.js` |
+|   3    |       [완주하지 못한 선수](/programmers/level-1/solution3.md)       | 2021-01-18 | Level-1 | `.cpp`, `.js` |
+|   4    |            [모의고사](/programmers/level-1/solution4.md)            | 2021-01-18 | Level-1 | `.cpp`, `.js` |
+|   5    |             [체육복](/programmers/level-1/solution5.md)             | 2021-01-18 | Level-1 | `.cpp`, `.js` |
+|   6    |            [K번째수](/programmers/level-1/solution6.md)             | 2021-01-19 | Level-1 | `.cpp`, `.js` |
+|   7    |             [2016년](/programmers/level-1/solution7.md)             | 2021-01-19 | Level-1 | `.cpp`, `.js` |
+|   8    |          [3진법 뒤집기](/programmers/level-1/solution8.md)          | 2021-01-19 | Level-1 | `.cpp`, `.js` |
+|   9    |      [가운데 글자 가져오기](/programmers/level-1/solution9.md)      | 2021-01-19 | Level-1 | `.cpp`, `.js` |
+|   10   |   [나누어 떨어지는 숫자 배열](/programmers/level-1/solution10.md)   | 2021-01-19 | Level-1 | `.cpp`, `.js` |
+|   11   |       [같은 숫자는 싫어](/programmers/level-1/solution11.md)        | 2021-01-19 | Level-1 | `.cpp`, `.js` |
+|   12   |       [두 정수 사이의 합](/programmers/level-1/solution12.md)       | 2021-01-19 | Level-1 | `.cpp`, `.js` |
+|   13   |  [문자열 내 마음대로 정렬하기](/programmers/level-1/solution13.md)  | 2021-01-19 | Level-1 | `.cpp`, `.js` |
+|   14   |    [문자열 내 p와 y의 개수](/programmers/level-1/solution14.md)     | 2021-01-19 | Level-1 | `.cpp`, `.js` |
+|   15   | [문자열 내림차순으로 배치하기](/programmers/level-1/solution15.md)  | 2021-01-19 | Level-1 | `.cpp`, `.js` |
+|   16   |      [문자열 다루기 기본](/programmers/level-1/solution16.md)       | 2021-01-20 | Level-1 | `.cpp`, `.js` |
+|   17   |     [서울에서 김서방 찾기](/programmers/level-1/solution17.md)      | 2021-01-20 | Level-1 | `.cpp`, `.js` |
+|   18   |           [소수 찾기](/programmers/level-1/solution18.md)           | 2021-01-20 | Level-1 | `.cpp`, `.js` |
+|   19   |    [문자열을 정수로 바꾸기](/programmers/level-1/solution19.md)     | 2021-01-20 | Level-1 | `.cpp`, `.js` |
+|   20   |    [수박수박수박수박수박수?](/programmers/level-1/solution20.md)    | 2021-01-20 | Level-1 | `.cpp`, `.js` |
+|   21   |             [내적](/programmers/level-1/solution21.md)              | 2021-01-20 | Level-1 | `.cpp`, `.js` |
+|   22   |           [시저 암호](/programmers/level-1/solution22.md)           | 2021-01-20 | Level-1 | `.cpp`, `.js` |
+|   23   |           [약수의 합](/programmers/level-1/solution23.md)           | 2021-01-20 | Level-1 | `.cpp`, `.js` |
+|   24   |      [이상한 문자 만들기](/programmers/level-1/solution24.md)       | 2021-01-20 | Level-1 | `.cpp`, `.js` |
+|   25   |         [자릿수 더하기](/programmers/level-1/solution25.md)         | 2021-01-20 | Level-1 | `.cpp`, `.js` |
+|   26   |  [자연수 뒤집어 배열로 만들기](/programmers/level-1/solution26.md)  | 2021-01-20 | Level-1 | `.cpp`, `.js` |
+|   27   |  [정수 내림차순으로 배치하기](/programmers/level-1/solution27.md)   | 2021-01-20 | Level-1 | `.cpp`, `.js` |
+|   28   |       [정수 제곱근 판별](/programmers/level-1/solution28.md)        | 2021-01-20 | Level-1 | `.cpp`, `.js` |
+|   29   |     [제일 작은 수 제거하기](/programmers/level-1/solution29.md)     | 2021-01-20 | Level-1 | `.cpp`, `.js` |
+|   30   |          [짝수와 홀수](/programmers/level-1/solution30.md)          | 2021-01-20 | Level-1 | `.cpp`, `.js` |
+|   31   |         [키패드 누르기](/programmers/level-1/solution31.md)         | 2021-01-20 | Level-1 | `.cpp`, `.js` |
+|   32   |    [최대공약수와 최소공배수](/programmers/level-1/solution32.md)    | 2021-01-20 | Level-1 | `.cpp`, `.js` |
+|   33   |          [콜라츠 추측](/programmers/level-1/solution33.md)          | 2021-01-20 | Level-1 | `.cpp`, `.js` |
+|   34   |          [평균 구하기](/programmers/level-1/solution34.md)          | 2021-01-20 | Level-1 | `.cpp`, `.js` |
+|   35   |           [하샤드 수](/programmers/level-1/solution35.md)           | 2021-01-20 | Level-1 | `.cpp`, `.js` |
+|   36   |      [핸드폰 번호 가리기](/programmers/level-1/solution36.md)       | 2021-01-20 | Level-1 | `.cpp`, `.js` |
+|   37   |          [행렬의 덧셈](/programmers/level-1/solution37.md)          | 2021-01-20 | Level-1 | `.cpp`, `.js` |
+|   38   | [x만큼 간격이 있는 n개의 숫자](/programmers/level-1/solution38.md)  | 2021-01-21 | Level-1 | `.cpp`, `.js` |
+|   39   |        [직사각형 별찍기](/programmers/level-1/solution39.md)        | 2021-01-21 | Level-1 | `.cpp`, `.js` |
+|   40   |             [예산](/programmers/level-1/solution40.md)              | 2021-01-21 | Level-1 | `.cpp`, `.js` |
+|   41   |           [비밀지도](/programmers/level-1/solution41.md)            | 2021-01-21 | Level-1 | `.cpp`, `.js` |
+|   42   |           [다트 게임](/programmers/level-1/solution42.md)           | 2021-01-21 | Level-1 | `.cpp`, `.js` |
+|   43   |            [실패율](/programmers/level-1/solution43.md)             | 2021-01-21 | Level-1 | `.cpp`, `.js` |
+|   44   |       [신규 아이디 추천](/programmers/level-1/solution108.md)       | 2021-02-06 | Level-1 | `.cpp`, `.js` |
+|   45   |         [음양 더하기](/programmers/level-1/solution135.md)          | 2021-04-17 | Level-1 | `.cpp`, `.js` |
+|   46   |      [약수의 개수와 덧셈](/programmers/level-1/solution137.md)      | 2021-06-11 | Level-1 | `.cpp`, `.js` |
+|   47   | [로또의 최고 순위와 최저 순위](/programmers/level-1/solution138.md) | 2021-06-11 | Level-1 | `.cpp`, `.js` |
 
 ### Level-2
 
@@ -310,6 +311,7 @@ This is storage of algorithm solutions
 |   7    |      [트리의 부모 찾기(11725)](/baekjoon/Class-4/solution118.md)      | 2021-05-31 | Class-4 | `.cpp`, `.js` |
 |   8    |           [RGB거리(1149)](/baekjoon/Class-4/solution119.md)           | 2021-06-06 | Class-4 | `.cpp`, `.js` |
 |   9    |            [곱셈(1629)](/baekjoon/Class-4/solution120.md)             | 2021-06-10 | Class-4 | `.cpp`, `.js` |
+|   10   |         [정수 삼각형(1932)](/baekjoon/Class-4/solution121.md)         | 2021-06-11 | Class-4 | `.cpp`, `.js` |
 
 ### Class-5
 
