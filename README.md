@@ -1,4 +1,4 @@
-# algorithm-solutions
+# study_algorithm-solutions
 
 This is storage of algorithm solutions
 
